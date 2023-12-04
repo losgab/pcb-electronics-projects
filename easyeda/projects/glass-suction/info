@@ -1,0 +1,309 @@
+{
+  "uuid": "a49e316824156cc443dc31176890d6b3",
+  "path": "Offline/glass-suction",
+  "name": "glass-suction",
+  "content": "",
+  "created_at": "2023-12-04 12:29:37",
+  "updated_at": "2023-12-04 17:35:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a18211fa216343af4201741353379985",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "dc1b8072e32b4867a0d0cefa6172ea71": 12,
+        "64752082718c4c8c9de1f63fde7f74df": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SLCT_SW1",
+          1,
+          "CONN-TH_XH-2A",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "SLCT_SW2",
+          1,
+          "CONN-TH_XH-2A",
+          "CN2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "BTN1",
+          1,
+          "CONN-TH_XH-2A",
+          "CN3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "BTN2",
+          1,
+          "CONN-TH_XH-2A",
+          "CN4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "PISTON_UP_VALVE",
+          1,
+          "CONN-TH_XH-2A",
+          "CN5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "PISTON_DOWN_VALVE",
+          1,
+          "CONN-TH_XH-2A",
+          "CN6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "SUCTION_VALVE",
+          1,
+          "CONN-TH_XH-2A",
+          "CN7",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "REED5",
+          1,
+          "CONN-TH_XH-2A",
+          "CN8",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "REED4",
+          1,
+          "CONN-TH_XH-2A",
+          "CN9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "REED3",
+          1,
+          "CONN-TH_XH-2A",
+          "CN10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "REED2",
+          1,
+          "CONN-TH_XH-2A",
+          "CN11",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "REED1",
+          1,
+          "CONN-TH_XH-2A",
+          "CN12",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900017879&%26type=1&ref=editor",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "Package Display": "Yes",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "POWER-JACK",
+          1,
+          "DC-IN-TH_POWER-JACK",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900001795",
+            "Manufacturer": "索峰",
+            "Manufacturer Part": "POWER-JACK",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900001795&%26type=1&ref=editor",
+            "spiceSymbolName": "POWER-JACK",
+            "Package Display": "Yes",
+            "puuid": "c309f5d2eb8e40b796181119d447a76e",
+            "uuid": "64752082718c4c8c9de1f63fde7f74df"
+          }
+        ]
+      ],
+      "updateTime": 1701671717,
+      "createTime": 1701653378,
+      "histories": [],
+      "created_at": "2023-12-04 12:29:38",
+      "updated_at": "2023-12-04 17:35:17"
+    }
+  ],
+  "sort": [],
+  "title": "glass-suction",
+  "foldername": "glass-suction",
+  "schfilename": "glass-suction.json",
+  "schfilemtime": 1701671717946
+}
