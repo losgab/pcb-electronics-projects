@@ -4,7 +4,7 @@
   "name": "glass-suction-ssr",
   "content": "",
   "created_at": "2023-12-05 11:58:32",
-  "updated_at": "2023-12-05 15:48:24",
+  "updated_at": "2023-12-05 15:19:34",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "3b63b47a72b6ae35389caa40d8436919",
       "thumb": "/images/thumb-default.png",
       "components": {
         "b7adf400643b4936be8b786704d0e70f": 1,
@@ -333,11 +333,11 @@
           }
         ]
       ],
-      "updateTime": 1701751075,
+      "updateTime": 1701749974,
       "createTime": 1701737912,
       "histories": [],
       "created_at": "2023-12-05 11:58:32",
-      "updated_at": "2023-12-05 15:37:55"
+      "updated_at": "2023-12-05 15:19:34"
     },
     {
       "uuid": "269f2eeffe59f8652c82d14ba2a69bf1",
@@ -349,18 +349,17 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "153ed004b0794cb6b8a2ebde7a1aabdf": 1,
         "743f02f614624025bdfe490c3e40495d": 12,
         "33fb862be3144ac28f39ee3f09bc963b": 3,
         "c309f5d2eb8e40b796181119d447a76e": 1,
         "ff6e2030776d4574a7594ce501bb86c5": 1
       },
       "BOM": [],
-      "updateTime": 1701751704,
+      "updateTime": 1701749290,
       "createTime": 1701739871,
       "histories": [],
       "created_at": "2023-12-05 12:31:11",
-      "updated_at": "2023-12-05 15:48:24"
+      "updated_at": "2023-12-05 15:08:10"
     }
   ],
   "sort": [
@@ -370,5 +369,5 @@
   "title": "glass-suction-ssr",
   "foldername": "glass-suction-ssr",
   "schfilename": "glass-suction-ssr.json",
-  "schfilemtime": 1701751075150
+  "schfilemtime": 1701749974615
 }
