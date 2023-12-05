@@ -4,7 +4,7 @@
   "name": "glass-suction",
   "content": "",
   "created_at": "2023-12-04 12:29:37",
-  "updated_at": "2023-12-05 11:59:55",
+  "updated_at": "2023-12-05 11:56:52",
   "stick": "",
   "documents": [
     {
@@ -372,6 +372,30 @@
       "updated_at": "2023-12-05 10:40:33"
     },
     {
+      "uuid": "cd0589752831c9e87b7062cae98ac6cb",
+      "puuid": "a49e316824156cc443dc31176890d6b3",
+      "title": "PCB_glass-suction",
+      "filename": "PCB_glass-suction.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "743f02f614624025bdfe490c3e40495d": 12,
+        "60a676d313ae48718a81c380b73dfe4f": 3,
+        "b51459c796b04f8fa8cb87f18c67cfe7": 3,
+        "398691f1f785460098bbe5ee6590333c": 6,
+        "ff6e2030776d4574a7594ce501bb86c5": 1,
+        "c309f5d2eb8e40b796181119d447a76e": 1
+      },
+      "BOM": [],
+      "updateTime": 1701737812,
+      "createTime": 1701732050,
+      "histories": [],
+      "created_at": "2023-12-05 10:20:50",
+      "updated_at": "2023-12-05 11:56:52"
+    },
+    {
       "uuid": "6a6abcee8c0da4734f0e691d83c2aac3",
       "puuid": "a49e316824156cc443dc31176890d6b3",
       "title": "PCB_glass-suction_2",
@@ -389,19 +413,16 @@
         "c309f5d2eb8e40b796181119d447a76e": 1
       },
       "BOM": [],
-      "updateTime": 1701737995,
+      "updateTime": 1701733177,
       "createTime": 1701733177,
       "histories": [],
       "created_at": "2023-12-05 10:39:37",
-      "updated_at": "2023-12-05 11:59:55"
+      "updated_at": "2023-12-05 10:39:37"
     }
   ],
-  "sort": [
-    "a18211fa216343af4201741353379985",
-    "4851afc1c3e932ce04040a897649bd1e"
-  ],
+  "sort": [],
   "title": "glass-suction",
   "foldername": "glass-suction",
   "schfilename": "glass-suction.json",
-  "schfilemtime": 1701737856136
+  "schfilemtime": 1701733233076
 }

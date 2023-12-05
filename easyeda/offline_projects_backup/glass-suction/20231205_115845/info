@@ -4,7 +4,7 @@
   "name": "glass-suction",
   "content": "",
   "created_at": "2023-12-04 12:29:37",
-  "updated_at": "2023-12-05 11:59:55",
+  "updated_at": "2023-12-05 11:58:45",
   "stick": "",
   "documents": [
     {
@@ -389,11 +389,11 @@
         "c309f5d2eb8e40b796181119d447a76e": 1
       },
       "BOM": [],
-      "updateTime": 1701737995,
+      "updateTime": 1701733177,
       "createTime": 1701733177,
       "histories": [],
       "created_at": "2023-12-05 10:39:37",
-      "updated_at": "2023-12-05 11:59:55"
+      "updated_at": "2023-12-05 10:39:37"
     }
   ],
   "sort": [

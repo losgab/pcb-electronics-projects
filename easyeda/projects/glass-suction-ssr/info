@@ -1,14 +1,14 @@
 {
-  "uuid": "a49e316824156cc443dc31176890d6b3",
-  "path": "Offline/glass-suction",
-  "name": "glass-suction",
+  "uuid": "078220c9130bacc10ec334ee5d16a443",
+  "path": "Offline/glass-suction-ssr",
+  "name": "glass-suction-ssr",
   "content": "",
-  "created_at": "2023-12-04 12:29:37",
-  "updated_at": "2023-12-05 11:59:55",
+  "created_at": "2023-12-05 11:58:32",
+  "updated_at": "2023-12-05 12:57:08",
   "stick": "",
   "documents": [
     {
-      "uuid": "a18211fa216343af4201741353379985",
+      "uuid": "7e402749e9cb3065efcdd75588d9cc17",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
@@ -18,9 +18,7 @@
         "b7adf400643b4936be8b786704d0e70f": 1,
         "dc1b8072e32b4867a0d0cefa6172ea71": 12,
         "64752082718c4c8c9de1f63fde7f74df": 1,
-        "e33cc1be9d5e4d929dda60b4eb023d72": 3,
-        "51e0dc66d7e249dbb7109d828b4d043a": 3,
-        "b0248eb51e084227889f2cb84eab79c4": 6
+        "0e696b92895a44f5a2374a3a7867fd01": 3
       },
       "BOM": [
         [
@@ -34,7 +32,7 @@
           "SLCT_SW1",
           1,
           "CONN-TH_XH-2A",
-          "CN1_SW1",
+          "CN1_SW2",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -53,7 +51,7 @@
           "SLCT_SW2",
           1,
           "CONN-TH_XH-2A",
-          "CN2_SW2",
+          "CN2_SW1",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -72,7 +70,7 @@
           "BTN1",
           1,
           "CONN-TH_XH-2A",
-          "CN3_BTN1",
+          "CN3_BTN2",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -91,26 +89,7 @@
           "BTN2",
           1,
           "CONN-TH_XH-2A",
-          "CN4_BTN2",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900000596",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH2.54-2A",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
-            "spiceSymbolName": "XH2.54-2A",
-            "Package Display": "Yes",
-            "puuid": "743f02f614624025bdfe490c3e40495d",
-            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
-          }
-        ],
-        [
-          "REED1",
-          1,
-          "CONN-TH_XH-2A",
-          "CN5_REED1",
+          "CN4_BTN1",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -129,7 +108,7 @@
           "REED2",
           1,
           "CONN-TH_XH-2A",
-          "CN6_REED2",
+          "CN5_REED2",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -145,10 +124,29 @@
           }
         ],
         [
-          "REED3",
+          "REED1",
           1,
           "CONN-TH_XH-2A",
-          "CN7_REED3",
+          "CN6_REED1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "REED5",
+          1,
+          "CONN-TH_XH-2A",
+          "CN7_REED5",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -183,10 +181,10 @@
           }
         ],
         [
-          "REED5",
+          "REED3",
           1,
           "CONN-TH_XH-2A",
-          "CN9_REED5",
+          "CN9_REED3",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -202,7 +200,7 @@
           }
         ],
         [
-          "SUCTON_VALVE",
+          "SUCTION_CONTROL",
           1,
           "CONN-TH_XH-2A",
           "CN10_SUCTION",
@@ -221,7 +219,7 @@
           }
         ],
         [
-          "PISTON_UP_VALVE",
+          "PISTON_UP_CONTROL",
           1,
           "CONN-TH_XH-2A",
           "CN11_PISTON_UP",
@@ -240,7 +238,7 @@
           }
         ],
         [
-          "PISTON_DOWN_VALVE",
+          "PISTON_DOWN_CONTROL",
           1,
           "CONN-TH_XH-2A",
           "CN12_PISTON_DOWN",
@@ -259,97 +257,29 @@
           }
         ],
         [
-          "1N4007W",
+          "LCA717STR",
           3,
-          "SOD-123_L2.8-W1.8-LS3.7-RD",
-          "D2,D3,D4",
-          {
-            "Supplier": "LCSC",
-            "Supplier Part": "C328592",
-            "Manufacturer": "BLUE ROCKET",
-            "Manufacturer Part": "1N4007W",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "1N4007W",
-            "Package Display": "Yes",
-            "puuid": "60a676d313ae48718a81c380b73dfe4f",
-            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
-          }
-        ],
-        [
-          "IRLR110TRPBF",
-          3,
-          "TO-252-3_L6.5-W6.1-P4.57-LS9.9-BR",
-          "Q2,Q3,Q4",
+          "SMD-6_L8.4-W6.4-P2.54-LS9.6-BL",
+          "U1,U4,U5",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C727581",
-            "Manufacturer": "VISHAY(威世)",
-            "Manufacturer Part": "IRLR110TRPBF",
+            "Supplier Part": "C2152234",
+            "Manufacturer": "IXYS",
+            "Manufacturer Part": "LCA717STR",
             "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C727581&%26type=1&ref=editor",
-            "spiceSymbolName": "IRLR110TRPBF",
+            "link": "https://lcsc.com/eda_search?q=C2152234&%26type=1&ref=editor",
+            "spiceSymbolName": "LCA717STR",
             "Package Display": "Yes",
-            "puuid": "b51459c796b04f8fa8cb87f18c67cfe7",
-            "uuid": "51e0dc66d7e249dbb7109d828b4d043a"
-          }
-        ],
-        [
-          "330",
-          3,
-          "R0603",
-          "R2,R6,R8",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_0603_US",
-            "Manufacturer Part": "",
-            "Package Display": "Yes",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "10K",
-          3,
-          "R0603",
-          "R4,R5,R7",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_0603_US",
-            "Manufacturer Part": "",
-            "Package Display": "Yes",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "ARDUINO_NANO",
-          1,
-          "COMM-TH_ARDUINO_NANO",
-          "U1",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900017879",
-            "Manufacturer": "null",
-            "Manufacturer Part": "ARDUINO_NANO",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900017879&%26type=1&ref=editor",
-            "spiceSymbolName": "ARDUINO_NANO",
-            "Package Display": "Yes",
-            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
-            "uuid": "b7adf400643b4936be8b786704d0e70f"
+            "puuid": "33fb862be3144ac28f39ee3f09bc963b",
+            "uuid": "0e696b92895a44f5a2374a3a7867fd01"
           }
         ],
         [
           "POWER-JACK",
           1,
           "DC-IN-TH_POWER-JACK",
-          "U4",
+          "U2",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -363,45 +293,62 @@
             "puuid": "c309f5d2eb8e40b796181119d447a76e",
             "uuid": "64752082718c4c8c9de1f63fde7f74df"
           }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900017879&%26type=1&ref=editor",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "Package Display": "Yes",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
         ]
       ],
-      "updateTime": 1701733233,
-      "createTime": 1701653378,
+      "updateTime": 1701740325,
+      "createTime": 1701737912,
       "histories": [],
-      "created_at": "2023-12-04 12:29:38",
-      "updated_at": "2023-12-05 10:40:33"
+      "created_at": "2023-12-05 11:58:32",
+      "updated_at": "2023-12-05 12:38:45"
     },
     {
-      "uuid": "6a6abcee8c0da4734f0e691d83c2aac3",
-      "puuid": "a49e316824156cc443dc31176890d6b3",
-      "title": "PCB_glass-suction_2",
-      "filename": "PCB_glass-suction_2.json",
+      "uuid": "269f2eeffe59f8652c82d14ba2a69bf1",
+      "puuid": "078220c9130bacc10ec334ee5d16a443",
+      "title": "PCB_glass-suction-ssr",
+      "filename": "PCB_glass-suction-ssr.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
         "743f02f614624025bdfe490c3e40495d": 12,
-        "60a676d313ae48718a81c380b73dfe4f": 3,
-        "b51459c796b04f8fa8cb87f18c67cfe7": 3,
-        "398691f1f785460098bbe5ee6590333c": 6,
-        "ff6e2030776d4574a7594ce501bb86c5": 1,
-        "c309f5d2eb8e40b796181119d447a76e": 1
+        "33fb862be3144ac28f39ee3f09bc963b": 3,
+        "c309f5d2eb8e40b796181119d447a76e": 1,
+        "ff6e2030776d4574a7594ce501bb86c5": 1
       },
       "BOM": [],
-      "updateTime": 1701737995,
-      "createTime": 1701733177,
+      "updateTime": 1701741428,
+      "createTime": 1701739871,
       "histories": [],
-      "created_at": "2023-12-05 10:39:37",
-      "updated_at": "2023-12-05 11:59:55"
+      "created_at": "2023-12-05 12:31:11",
+      "updated_at": "2023-12-05 12:57:08"
     }
   ],
   "sort": [
     "a18211fa216343af4201741353379985",
     "4851afc1c3e932ce04040a897649bd1e"
   ],
-  "title": "glass-suction",
-  "foldername": "glass-suction",
-  "schfilename": "glass-suction.json",
-  "schfilemtime": 1701737856136
+  "title": "glass-suction-ssr",
+  "foldername": "glass-suction-ssr",
+  "schfilename": "glass-suction-ssr.json",
+  "schfilemtime": 1701740325186
 }

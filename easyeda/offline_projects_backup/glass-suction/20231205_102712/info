@@ -4,7 +4,7 @@
   "name": "glass-suction",
   "content": "",
   "created_at": "2023-12-04 12:29:37",
-  "updated_at": "2023-12-05 11:59:55",
+  "updated_at": "2023-12-05 10:27:12",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "06259475ba8e3433a0e8977b8d5e16ba",
       "thumb": "/images/thumb-default.png",
       "components": {
         "b7adf400643b4936be8b786704d0e70f": 1,
@@ -107,6 +107,25 @@
           }
         ],
         [
+          "SUCTON_VALVE",
+          1,
+          "CONN-TH_XH-2A",
+          "CN5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
           "REED1",
           1,
           "CONN-TH_XH-2A",
@@ -126,10 +145,48 @@
           }
         ],
         [
+          "PISTON_UP_VALVE",
+          1,
+          "CONN-TH_XH-2A",
+          "CN6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
           "REED2",
           1,
           "CONN-TH_XH-2A",
           "CN6_REED2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000596",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH2.54-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
+            "spiceSymbolName": "XH2.54-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
+          }
+        ],
+        [
+          "PISTON_DOWN_VALVE",
+          1,
+          "CONN-TH_XH-2A",
+          "CN7",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -187,63 +244,6 @@
           1,
           "CONN-TH_XH-2A",
           "CN9_REED5",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900000596",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH2.54-2A",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
-            "spiceSymbolName": "XH2.54-2A",
-            "Package Display": "Yes",
-            "puuid": "743f02f614624025bdfe490c3e40495d",
-            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
-          }
-        ],
-        [
-          "SUCTON_VALVE",
-          1,
-          "CONN-TH_XH-2A",
-          "CN10_SUCTION",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900000596",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH2.54-2A",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
-            "spiceSymbolName": "XH2.54-2A",
-            "Package Display": "Yes",
-            "puuid": "743f02f614624025bdfe490c3e40495d",
-            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
-          }
-        ],
-        [
-          "PISTON_UP_VALVE",
-          1,
-          "CONN-TH_XH-2A",
-          "CN11_PISTON_UP",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900000596",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH2.54-2A",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900000596&%26type=1&ref=editor",
-            "spiceSymbolName": "XH2.54-2A",
-            "Package Display": "Yes",
-            "puuid": "743f02f614624025bdfe490c3e40495d",
-            "uuid": "dc1b8072e32b4867a0d0cefa6172ea71"
-          }
-        ],
-        [
-          "PISTON_DOWN_VALVE",
-          1,
-          "CONN-TH_XH-2A",
-          "CN12_PISTON_DOWN",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -365,17 +365,17 @@
           }
         ]
       ],
-      "updateTime": 1701733233,
+      "updateTime": 1701732432,
       "createTime": 1701653378,
       "histories": [],
       "created_at": "2023-12-04 12:29:38",
-      "updated_at": "2023-12-05 10:40:33"
+      "updated_at": "2023-12-05 10:27:12"
     },
     {
-      "uuid": "6a6abcee8c0da4734f0e691d83c2aac3",
+      "uuid": "cd0589752831c9e87b7062cae98ac6cb",
       "puuid": "a49e316824156cc443dc31176890d6b3",
-      "title": "PCB_glass-suction_2",
-      "filename": "PCB_glass-suction_2.json",
+      "title": "PCB_glass-suction",
+      "filename": "PCB_glass-suction.json",
       "description": "",
       "docType": "3",
       "master": "",
@@ -389,19 +389,16 @@
         "c309f5d2eb8e40b796181119d447a76e": 1
       },
       "BOM": [],
-      "updateTime": 1701737995,
-      "createTime": 1701733177,
+      "updateTime": 1701732050,
+      "createTime": 1701732050,
       "histories": [],
-      "created_at": "2023-12-05 10:39:37",
-      "updated_at": "2023-12-05 11:59:55"
+      "created_at": "2023-12-05 10:20:50",
+      "updated_at": "2023-12-05 10:20:50"
     }
   ],
-  "sort": [
-    "a18211fa216343af4201741353379985",
-    "4851afc1c3e932ce04040a897649bd1e"
-  ],
+  "sort": [],
   "title": "glass-suction",
   "foldername": "glass-suction",
   "schfilename": "glass-suction.json",
-  "schfilemtime": 1701737856136
+  "schfilemtime": 1701732432893
 }
