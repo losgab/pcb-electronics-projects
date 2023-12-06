@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2023-12-06 14:42:17",
+  "updated_at": "2023-12-06 11:38:44",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "fdde17af309557e7f786288504158323",
       "thumb": "/images/thumb-default.png",
       "components": {
         "c6652b96eb0d4528a60082e8b5dc8713": 1,
@@ -52,7 +52,7 @@
           "LED_STRIP2",
           1,
           "CONN-TH_3P-P2.50_B3B-XH-A-BK-LF-SN",
-          "CN2_LEDSTR2",
+          "CN1_LEDSTR2",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -71,7 +71,7 @@
           "LED_STRIP3",
           1,
           "CONN-TH_3P-P2.50_B3B-XH-A-BK-LF-SN",
-          "CN3_LEDSTR3",
+          "CN1_LEDSTR3",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -217,16 +217,16 @@
           }
         ]
       ],
-      "updateTime": 1701834137,
+      "updateTime": 1701823124,
       "createTime": 1701320951,
       "histories": [],
       "created_at": "2023-11-30 16:09:11",
-      "updated_at": "2023-12-06 14:42:17"
+      "updated_at": "2023-12-06 11:38:44"
     }
   ],
   "sort": [],
   "title": "parallelism-profile-electronics",
   "foldername": "parallelism-profile-electronics",
   "schfilename": "parallelism-profile-electronics.json",
-  "schfilemtime": 1701834137519
+  "schfilemtime": 1701823124759
 }
