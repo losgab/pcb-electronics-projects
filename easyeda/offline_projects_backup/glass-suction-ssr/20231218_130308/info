@@ -4,7 +4,7 @@
   "name": "glass-suction-ssr",
   "content": "",
   "created_at": "2023-12-05 11:58:32",
-  "updated_at": "2023-12-18 13:05:37",
+  "updated_at": "2023-12-18 13:03:08",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "aa58a3521cb739e856055b5192cdf9b1",
       "thumb": "/images/thumb-default.png",
       "components": {
         "b7adf400643b4936be8b786704d0e70f": 1,
@@ -366,7 +366,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "398691f1f785460098bbe5ee6590333c": 3,
+        "b60f399a7a7e41848b2be1eb49c79141": 3,
         "ea039dc6fadc4011a2589cf4ff168486": 3,
         "153ed004b0794cb6b8a2ebde7a1aabdf": 1,
         "743f02f614624025bdfe490c3e40495d": 12,
@@ -374,11 +374,11 @@
         "ff6e2030776d4574a7594ce501bb86c5": 1
       },
       "BOM": [],
-      "updateTime": 1702865137,
+      "updateTime": 1702864404,
       "createTime": 1701739871,
       "histories": [],
       "created_at": "2023-12-05 12:31:11",
-      "updated_at": "2023-12-18 13:05:37"
+      "updated_at": "2023-12-18 12:53:24"
     }
   ],
   "sort": [
