@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2023-12-21 17:54:00",
+  "updated_at": "2023-12-21 17:35:21",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "e01b6b56461acdb5bcc526b2415719f8",
       "thumb": "/images/thumb-default.png",
       "components": {
         "c6652b96eb0d4528a60082e8b5dc8713": 1,
@@ -222,29 +222,6 @@
       "histories": [],
       "created_at": "2023-11-30 16:09:11",
       "updated_at": "2023-12-21 17:35:21"
-    },
-    {
-      "uuid": "b8bf7269fa01aa2ee029a91ffa2735be",
-      "puuid": "9adef70f2fcc97daefba0a8b1b885d5c",
-      "title": "PCB_parallelism-profile-electronics",
-      "filename": "PCB_parallelism-profile-electronics.json",
-      "description": "",
-      "docType": "3",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "121772e35f5b499a80a9dde8cdbcb530": 3,
-        "42b0c8bb8d484f04a127105ab7798018": 1,
-        "f2561f0fa47346d3a02d341f9e29ef9e": 1,
-        "c30f9f49a2f9491a93a088928eb20cfc": 4,
-        "c309f5d2eb8e40b796181119d447a76e": 1
-      },
-      "BOM": [],
-      "updateTime": 1703141640,
-      "createTime": 1703141640,
-      "histories": [],
-      "created_at": "2023-12-21 17:54:00",
-      "updated_at": "2023-12-21 17:54:00"
     }
   ],
   "sort": [],
