@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2023-12-22 11:39:04",
+  "updated_at": "2023-12-22 11:31:58",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "3ec564e396a5705de50b544085d1aac3",
       "thumb": "/images/thumb-default.png",
       "components": {
         "c6652b96eb0d4528a60082e8b5dc8713": 1,
@@ -88,24 +88,6 @@
           }
         ],
         [
-          "CD4052BE",
-          1,
-          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
-          "IC1",
-          {
-            "Supplier": "LCSC",
-            "Manufacturer": "TI(德州仪器)",
-            "Manufacturer Part": "CD4052BE",
-            "Supplier Part": "C5201",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C5201&%26type=1&ref=editor",
-            "spiceSymbolName": "CD4052BE",
-            "Package Display": "Yes",
-            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
-            "uuid": "8f733e49a30f827a0cac184a18741c55"
-          }
-        ],
-        [
           "ESP32-S3-Pico-Waveshare-Symbol",
           1,
           "ESP32-S3-PICO",
@@ -121,6 +103,24 @@
             "Package Display": "No",
             "puuid": "42b0c8bb8d484f04a127105ab7798018",
             "uuid": "c6652b96eb0d4528a60082e8b5dc8713"
+          }
+        ],
+        [
+          "CD4052BE",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "CD4052BE",
+            "Supplier Part": "C5201",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C5201&%26type=1&ref=editor",
+            "spiceSymbolName": "CD4052BE",
+            "Package Display": "Yes",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "8f733e49a30f827a0cac184a18741c55"
           }
         ],
         [
@@ -236,11 +236,11 @@
           }
         ]
       ],
-      "updateTime": 1703205145,
+      "updateTime": 1703205118,
       "createTime": 1701320951,
       "histories": [],
       "created_at": "2023-11-30 16:09:11",
-      "updated_at": "2023-12-22 11:32:25"
+      "updated_at": "2023-12-22 11:31:58"
     },
     {
       "uuid": "b8bf7269fa01aa2ee029a91ffa2735be",
@@ -252,24 +252,23 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "121772e35f5b499a80a9dde8cdbcb530": 4,
-        "153ed004b0794cb6b8a2ebde7a1aabdf": 1,
-        "f2561f0fa47346d3a02d341f9e29ef9e": 1,
+        "121772e35f5b499a80a9dde8cdbcb530": 3,
         "42b0c8bb8d484f04a127105ab7798018": 1,
+        "f2561f0fa47346d3a02d341f9e29ef9e": 1,
         "c30f9f49a2f9491a93a088928eb20cfc": 4,
         "c309f5d2eb8e40b796181119d447a76e": 1
       },
       "BOM": [],
-      "updateTime": 1703205544,
+      "updateTime": 1703141640,
       "createTime": 1703141640,
       "histories": [],
       "created_at": "2023-12-21 17:54:00",
-      "updated_at": "2023-12-22 11:39:04"
+      "updated_at": "2023-12-21 17:54:00"
     }
   ],
   "sort": [],
   "title": "parallelism-profile-electronics",
   "foldername": "parallelism-profile-electronics",
   "schfilename": "parallelism-profile-electronics.json",
-  "schfilemtime": 1703205145432
+  "schfilemtime": 1703205118716
 }
