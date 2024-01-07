@@ -10,33 +10,34 @@ Specifically, these projects either:
 - host an interconnect communication system for robotics applications
 
 ## Project List
-| Project                                                                        | Description |
-| ------------------------------------------------------------------------------ | ----------- |
-| [Capacitive Liquid Level Sensing](##-Glass-Prep-&-Suction-Power-Control-Board) | deets       |
-| [Light Filter Alignment & Calibration Tool](#light-filter-alignment--calibration-tool)                                      | deets       |
-| [Glass Prep & Suction Power Control](#glass-prep--suction-power-control)       | deets       |
-| [Parallelism & Nominal Profile Quality Control PLC](#parallelism--nominal-profile-quality-control-plc)                            | deets       |
+| Project                                                                                                | Description |
+| ------------------------------------------------------------------------------------------------------ | ----------- |
+| [Capacitive Liquid Level Sensing](##-Glass-Prep-&-Suction-Power-Control-Board)                         | deets       |
+| [Light Filter Alignment & Calibration Tool](#light-filter-alignment--calibration-tool)                 | deets       |
+| [Glass Prep & Suction Power Control](#glass-prep--suction-power-control)                               | deets       |
+| [Parallelism & Nominal Profile Quality Control PLC](#parallelism--nominal-profile-quality-control-plc) | deets       |
 
 
 *Designed using Altium Designer, Autodesk EAGLE & EasyEDA.*
 
 ## Glass Prep & Suction Power Control
 
-| Top Side                                             | Bottom Side                                          |
-| ---------------------------------------------------- | ---------------------------------------------------- |
+|                       Top Side                       |                     Bottom Side                      |
+| :--------------------------------------------------: | :--------------------------------------------------: |
 | ![alt text](/img/glass_suction_power_control_ts.png) | ![alt text](/img/glass_suction_power_control_bs.png) |
 
 ## Capacitive Liquid Level Sensing
-| Top Side | Bottom Side |
-| -------- | ----------- |
-| COMING!  | COMING!     |
+|                         Top Side                         |                       Bottom Side                        |
+| :------------------------------------------------------: | :------------------------------------------------------: |
+| ![alt text](/img/fdc1004-capacitive-level-sensor-ts.png) | ![alt text](/img/fdc1004-capacitive-level-sensor-bs.png) |
+| ![alt text](/img/fdc1004-capacitive-level-sensor-1.jpg)  | ![alt text](/img/fdc1004-capacitive-level-sensor-2.jpg)  |
 
 ## Light Filter Alignment & Calibration Tool
 | Top Side | Bottom Side |
-| -------- | ----------- |
-| COMING!  | COMING!     |
+| :------: | :---------: |
+| COMING!  |   COMING!   |
 
 ## Parallelism & Nominal Profile Quality Control PLC
 | Top Side | Bottom Side |
-| -------- | ----------- |
-| COMING!  | COMING!     |
+| :------: | :---------: |
+| COMING!  |   COMING!   |
