@@ -25,6 +25,7 @@ Specifically, these projects either:
 |                       Top Side                       |                     Bottom Side                      |
 | :--------------------------------------------------: | :--------------------------------------------------: |
 | ![alt text](/img/glass_suction_power_control_ts.png) | ![alt text](/img/glass_suction_power_control_bs.png) |
+|                       COMING!                        |                       COMING!                        |
 
 ## Capacitive Liquid Level Sensing
 |                         Top Side                         |                       Bottom Side                        |
@@ -33,11 +34,13 @@ Specifically, these projects either:
 | ![alt text](/img/fdc1004-capacitive-level-sensor-1.jpg)  | ![alt text](/img/fdc1004-capacitive-level-sensor-2.jpg)  |
 
 ## Light Filter Alignment & Calibration Tool
-| Top Side | Bottom Side |
-| :------: | :---------: |
-| COMING!  |   COMING!   |
+|                  Top Side                  |                Bottom Side                 |
+| :----------------------------------------: | :----------------------------------------: |
+| ![alt text](/img/light-filter-tool-ts.png) | ![alt text](/img/light-ftiler-tool-bs.png) |
+|                  COMING!                   |                  COMING!                   |
 
 ## Parallelism & Nominal Profile Quality Control PLC
-| Top Side | Bottom Side |
-| :------: | :---------: |
-| COMING!  |   COMING!   |
+|                        Top Side                         |                       Bottom Side                       |
+| :-----------------------------------------------------: | :-----------------------------------------------------: |
+| ![alt text](/img/parallel-profile-control-board-ts.png) | ![alt text](/img/parallel-profile-control-board-bs.png) |
+|                         COMING!                         |                         COMING!                         |
