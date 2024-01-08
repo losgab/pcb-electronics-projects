@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2024-01-08 16:50:59",
+  "updated_at": "2024-01-08 15:07:24",
   "stick": "",
   "documents": [
     {
@@ -20,10 +20,7 @@
         "64752082718c4c8c9de1f63fde7f74df": 1,
         "d6e25a7833a242939ca2953d9eadd31f": 1,
         "5bc6d2cd6ba84df5977ef6eaca0c23d6": 2,
-        "776a791d68cf4eefa2b838aeacc5f7be": 1,
-        "1ca2485b47f74026b0d3c793b9fb3ec1": 1,
-        "b209a50da6444550a2c1c06246247e15": 1,
-        "2761b94687ab41ae86f3c0afca94138d": 1
+        "776a791d68cf4eefa2b838aeacc5f7be": 1
       },
       "BOM": [
         [
@@ -53,26 +50,6 @@
           }
         ],
         [
-          "1N5819-TP",
-          1,
-          "DO-41_BD2.4-L4.7-P8.70-D0.9-FD",
-          "D1",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C725292",
-            "Manufacturer": "MCC(美微科)",
-            "Manufacturer Part": "1N5819-TP",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C725292&%26type=1&ref=editor",
-            "3DModel": "DO-41_D2.4-L4.7-P8.70",
-            "spiceSymbolName": "1N5819-TP",
-            "Package Display": "Yes",
-            "puuid": "f9b6c4acbda64b569861a21e133c291c",
-            "uuid": "2761b94687ab41ae86f3c0afca94138d"
-          }
-        ],
-        [
           "CD4052BE",
           1,
           "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
@@ -91,10 +68,28 @@
           }
         ],
         [
+          "S1",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4364832",
+            "Manufacturer": "APEM",
+            "Manufacturer Part": "MJTP1230",
+            "link": "https://lcsc.com/eda_search?q=C4364832&%26type=1&ref=editor",
+            "spiceSymbolName": "MJTP1230",
+            "Package Display": "Yes",
+            "puuid": "153ed004b0794cb6b8a2ebde7a1aabdf",
+            "uuid": "5bc6d2cd6ba84df5977ef6eaca0c23d6"
+          }
+        ],
+        [
           "MCM0",
           1,
           "CONN-TH_XH-2.54-4",
-          "M1",
+          "U2",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -113,7 +108,7 @@
           "MCM1",
           1,
           "CONN-TH_XH-2.54-4",
-          "M2",
+          "U3",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -132,7 +127,7 @@
           "MCM2",
           1,
           "CONN-TH_XH-2.54-4",
-          "M3",
+          "U4",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -151,7 +146,7 @@
           "MCM3",
           1,
           "CONN-TH_XH-2.54-4",
-          "M4",
+          "U5",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -164,61 +159,6 @@
             "Package Display": "Yes",
             "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
             "uuid": "52298fd8e7994f36be79ad4f3e973f02"
-          }
-        ],
-        [
-          "XH-D-2A",
-          1,
-          "CONN-TH_XH-2A",
-          "SD_POWER",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C5160911",
-            "Manufacturer": "DEALON(德艺隆)",
-            "Manufacturer Part": "XH-D-2A",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C5160911&%26type=1&ref=editor",
-            "spiceSymbolName": "XH-D-2A",
-            "Package Display": "Yes",
-            "puuid": "743f02f614624025bdfe490c3e40495d",
-            "uuid": "1ca2485b47f74026b0d3c793b9fb3ec1"
-          }
-        ],
-        [
-          "XD-XH-5A-G",
-          1,
-          "CONN-TH_XH-5A",
-          "SD_SPI",
-          {
-            "Supplier": "LCSC",
-            "Supplier Part": "C17700949",
-            "Manufacturer": "XUNDA(讯答)",
-            "Manufacturer Part": "XD-XH-5A-G",
-            "Contributor": "lcsc",
-            "link": "https://lcsc.com/eda_search?q=C17700949&%26type=1&ref=editor",
-            "spiceSymbolName": "XD-XH-5A-G",
-            "Package Display": "Yes",
-            "puuid": "9c54a2a8a5534fbf9f5a52cf9eb026fc",
-            "uuid": "b209a50da6444550a2c1c06246247e15"
-          }
-        ],
-        [
-          "S1",
-          1,
-          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
-          "U1",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4364832",
-            "Manufacturer": "APEM",
-            "Manufacturer Part": "MJTP1230",
-            "link": "https://lcsc.com/eda_search?q=C4364832&%26type=1&ref=editor",
-            "spiceSymbolName": "MJTP1230",
-            "Package Display": "Yes",
-            "puuid": "153ed004b0794cb6b8a2ebde7a1aabdf",
-            "uuid": "5bc6d2cd6ba84df5977ef6eaca0c23d6"
           }
         ],
         [
@@ -275,11 +215,11 @@
           }
         ]
       ],
-      "updateTime": 1704688552,
+      "updateTime": 1704683899,
       "createTime": 1701320951,
       "histories": [],
       "created_at": "2023-11-30 16:09:11",
-      "updated_at": "2024-01-08 15:35:52"
+      "updated_at": "2024-01-08 14:18:19"
     },
     {
       "uuid": "b8bf7269fa01aa2ee029a91ffa2735be",
@@ -291,27 +231,24 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "121772e35f5b499a80a9dde8cdbcb530": 1,
-        "c309f5d2eb8e40b796181119d447a76e": 1,
-        "c30f9f49a2f9491a93a088928eb20cfc": 4,
-        "743f02f614624025bdfe490c3e40495d": 1,
-        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
-        "f9b6c4acbda64b569861a21e133c291c": 1,
         "83ce1f26659646f499293b3084a4ccd9": 1,
         "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
-        "f2561f0fa47346d3a02d341f9e29ef9e": 1
+        "f2561f0fa47346d3a02d341f9e29ef9e": 1,
+        "121772e35f5b499a80a9dde8cdbcb530": 1,
+        "c30f9f49a2f9491a93a088928eb20cfc": 4,
+        "c309f5d2eb8e40b796181119d447a76e": 1
       },
       "BOM": [],
-      "updateTime": 1704693059,
+      "updateTime": 1704686844,
       "createTime": 1703141640,
       "histories": [],
       "created_at": "2023-12-21 17:54:00",
-      "updated_at": "2024-01-08 16:50:59"
+      "updated_at": "2024-01-08 15:07:24"
     }
   ],
   "sort": [],
   "title": "parallelism-profile-electronics",
   "foldername": "parallelism-profile-electronics",
   "schfilename": "parallelism-profile-electronics.json",
-  "schfilemtime": 1704688552337
+  "schfilemtime": 1704683899897
 }

@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2024-01-08 16:50:59",
+  "updated_at": "2024-01-08 15:35:21",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "47450f0996a81040c2ae735d86b1a2eb",
       "thumb": "/images/thumb-default.png",
       "components": {
         "8f733e49a30f827a0cac184a18741c55": 1,
@@ -275,11 +275,11 @@
           }
         ]
       ],
-      "updateTime": 1704688552,
+      "updateTime": 1704688521,
       "createTime": 1701320951,
       "histories": [],
       "created_at": "2023-11-30 16:09:11",
-      "updated_at": "2024-01-08 15:35:52"
+      "updated_at": "2024-01-08 15:35:21"
     },
     {
       "uuid": "b8bf7269fa01aa2ee029a91ffa2735be",
@@ -296,22 +296,21 @@
         "c30f9f49a2f9491a93a088928eb20cfc": 4,
         "743f02f614624025bdfe490c3e40495d": 1,
         "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
-        "f9b6c4acbda64b569861a21e133c291c": 1,
         "83ce1f26659646f499293b3084a4ccd9": 1,
         "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
         "f2561f0fa47346d3a02d341f9e29ef9e": 1
       },
       "BOM": [],
-      "updateTime": 1704693059,
+      "updateTime": 1704688425,
       "createTime": 1703141640,
       "histories": [],
       "created_at": "2023-12-21 17:54:00",
-      "updated_at": "2024-01-08 16:50:59"
+      "updated_at": "2024-01-08 15:33:45"
     }
   ],
   "sort": [],
   "title": "parallelism-profile-electronics",
   "foldername": "parallelism-profile-electronics",
   "schfilename": "parallelism-profile-electronics.json",
-  "schfilemtime": 1704688552337
+  "schfilemtime": 1704688521058
 }

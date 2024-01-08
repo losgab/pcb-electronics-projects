@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2024-01-08 16:50:59",
+  "updated_at": "2024-01-08 16:38:02",
   "stick": "",
   "documents": [
     {
@@ -295,18 +295,18 @@
         "c309f5d2eb8e40b796181119d447a76e": 1,
         "c30f9f49a2f9491a93a088928eb20cfc": 4,
         "743f02f614624025bdfe490c3e40495d": 1,
-        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
         "f9b6c4acbda64b569861a21e133c291c": 1,
         "83ce1f26659646f499293b3084a4ccd9": 1,
         "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
-        "f2561f0fa47346d3a02d341f9e29ef9e": 1
+        "f2561f0fa47346d3a02d341f9e29ef9e": 1,
+        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1
       },
       "BOM": [],
-      "updateTime": 1704693059,
+      "updateTime": 1704692282,
       "createTime": 1703141640,
       "histories": [],
       "created_at": "2023-12-21 17:54:00",
-      "updated_at": "2024-01-08 16:50:59"
+      "updated_at": "2024-01-08 16:38:02"
     }
   ],
   "sort": [],
