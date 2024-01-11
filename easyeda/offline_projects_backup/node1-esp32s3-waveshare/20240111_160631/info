@@ -1,0 +1,93 @@
+{
+  "uuid": "68faeb8434d3e1ba744330c49162af74",
+  "path": "Offline/node1-esp32s3-waveshare",
+  "name": "node1-esp32s3-waveshare",
+  "content": "",
+  "created_at": "2024-01-11 15:54:36",
+  "updated_at": "2024-01-11 16:06:31",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "af4187ac93164ed469841501a214195e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "3a5526cf5168c92633f22b6944dbb260",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c6652b96eb0d4528a60082e8b5dc8713": 1,
+        "4c2bcd7db19c426796ba60ce6e798bdd": 1,
+        "eea74e3a16f548f383486f844f2fd995": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HEADER 4",
+          1,
+          "CONN-TH_XH-4A",
+          "CN1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017655",
+            "Manufacturer": "null",
+            "Manufacturer Part": "Header 4",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HEADER 4",
+            "puuid": "09d6dfd5f1bd45ad9666677f79297f6a",
+            "uuid": "4c2bcd7db19c426796ba60ce6e798bdd"
+          }
+        ],
+        [
+          "ESP32-S3-Pico-Waveshare-Symbol",
+          1,
+          "ESP32-S3-PICO",
+          "J1",
+          {
+            "Supplier Part": "ESP32-S3-Pico",
+            "Supplier": "LCSC",
+            "Manufacturer": "Waveshare",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "Gabriel Thien",
+            "spiceSymbolName": "ESP32-S3-Pico-Waveshare-Symbol",
+            "puuid": "42b0c8bb8d484f04a127105ab7798018",
+            "uuid": "c6652b96eb0d4528a60082e8b5dc8713"
+          }
+        ],
+        [
+          "0.96OLED_4P",
+          1,
+          "0.96OLED_4P",
+          "OLED1",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "0.96OLED_4P",
+            "puuid": "88b7b62f56d14ce0a65d98c420c09d52",
+            "uuid": "eea74e3a16f548f383486f844f2fd995"
+          }
+        ]
+      ],
+      "updateTime": 1704949591,
+      "createTime": 1704948876,
+      "histories": [],
+      "created_at": "2024-01-11 15:54:36",
+      "updated_at": "2024-01-11 16:06:31"
+    }
+  ],
+  "sort": [],
+  "title": "node1-esp32s3-waveshare",
+  "foldername": "node1-esp32s3-waveshare",
+  "schfilename": "node1-esp32s3-waveshare.json",
+  "schfilemtime": 1704949591799
+}

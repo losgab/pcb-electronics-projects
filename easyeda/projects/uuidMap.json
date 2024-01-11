@@ -11,6 +11,9 @@
   "078220c9130bacc10ec334ee5d16a443": "glass-suction-ssr",
   "7e402749e9cb3065efcdd75588d9cc17": "glass-suction-ssr\\glass-suction-ssr.json?Sheet_1",
   "269f2eeffe59f8652c82d14ba2a69bf1": "glass-suction-ssr\\PCB_glass-suction-ssr.json",
+  "68faeb8434d3e1ba744330c49162af74": "node1-esp32s3-waveshare",
+  "af4187ac93164ed469841501a214195e": "node1-esp32s3-waveshare\\node1-esp32s3-waveshare.json?Sheet_1",
+  "3c28d6ebf35bedeb0ec7254537b71faa": "node1-esp32s3-waveshare\\PCB_node1-esp32s3-waveshare.json",
   "9adef70f2fcc97daefba0a8b1b885d5c": "parallelism-profile-electronics",
   "cce0247227f3a5ea234343eddeeb9114": "parallelism-profile-electronics\\parallelism-profile-electronics.json?Sheet_1",
   "b8bf7269fa01aa2ee029a91ffa2735be": "parallelism-profile-electronics\\PCB_parallelism-profile-electronics.json"
