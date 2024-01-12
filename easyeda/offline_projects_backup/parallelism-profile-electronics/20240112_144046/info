@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2024-01-12 15:07:25",
+  "updated_at": "2024-01-12 14:40:46",
   "stick": "",
   "documents": [
     {
@@ -23,7 +23,7 @@
         "1ca2485b47f74026b0d3c793b9fb3ec1": 1,
         "b209a50da6444550a2c1c06246247e15": 1,
         "2761b94687ab41ae86f3c0afca94138d": 1,
-        "3f3c52126b154338a1818f541153d20f": 1
+        "8cc5690704174bd187f5ba0efca12dff": 1
       },
       "BOM": [
         [
@@ -222,20 +222,20 @@
           }
         ],
         [
-          "XIAO_ESP32S3",
+          "XIAO_ESP32S3 BOARD CUTOUT",
           1,
-          "XIAO_ESP32-S3_THROUGHHOLE",
+          "XIAO-ESP32S3-BOARD-CUTOUT",
           "U2",
           {
-            "Manufacturer": "SEEED STUDIO",
-            "Manufacturer Part": "",
-            "Supplier": "",
-            "Supplier Part": "",
-            "link": "",
-            "Contributor": "Gabriel Thien",
-            "spiceSymbolName": "XIAO_ESP32S3",
-            "puuid": "89ad951208b64a03ba14148abc205cb4",
-            "uuid": "3f3c52126b154338a1818f541153d20f"
+            "Manufacturer": "SeeedStudio",
+            "Manufacturer Part": "XIAO ESP32C3",
+            "Supplier Part": "1597-113991054-ND",
+            "Supplier": "Digi-Key",
+            "link": "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/",
+            "Contributor": "Carsen Klock",
+            "spiceSymbolName": "XIAO_ESP32S3 BOARD CUTOUT",
+            "puuid": "52f8374e18f7467fbfc10c23f537fcd5",
+            "uuid": "8cc5690704174bd187f5ba0efca12dff"
           }
         ],
         [
@@ -275,11 +275,11 @@
           }
         ]
       ],
-      "updateTime": 1705032248,
+      "updateTime": 1705030529,
       "createTime": 1701320951,
       "histories": [],
       "created_at": "2023-11-30 16:09:11",
-      "updated_at": "2024-01-12 15:04:08"
+      "updated_at": "2024-01-12 14:35:29"
     },
     {
       "uuid": "b8bf7269fa01aa2ee029a91ffa2735be",
@@ -291,7 +291,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "89ad951208b64a03ba14148abc205cb4": 1,
+        "52f8374e18f7467fbfc10c23f537fcd5": 1,
         "121772e35f5b499a80a9dde8cdbcb530": 1,
         "c309f5d2eb8e40b796181119d447a76e": 1,
         "c30f9f49a2f9491a93a088928eb20cfc": 4,
@@ -302,16 +302,16 @@
         "f2561f0fa47346d3a02d341f9e29ef9e": 1
       },
       "BOM": [],
-      "updateTime": 1705032445,
+      "updateTime": 1705030846,
       "createTime": 1703141640,
       "histories": [],
       "created_at": "2023-12-21 17:54:00",
-      "updated_at": "2024-01-12 15:07:25"
+      "updated_at": "2024-01-12 14:40:46"
     }
   ],
   "sort": [],
   "title": "parallelism-profile-electronics",
   "foldername": "parallelism-profile-electronics",
   "schfilename": "parallelism-profile-electronics.json",
-  "schfilemtime": 1705032248363
+  "schfilemtime": 1705030529489
 }
