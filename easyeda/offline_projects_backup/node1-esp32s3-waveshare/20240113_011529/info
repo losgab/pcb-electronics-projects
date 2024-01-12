@@ -4,7 +4,7 @@
   "name": "node1-esp32s3-waveshare",
   "content": "",
   "created_at": "2024-01-11 15:54:36",
-  "updated_at": "2024-01-13 02:02:33",
+  "updated_at": "2024-01-13 01:15:29",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "911081857c3ef3463606fba60a58e067",
       "thumb": "/images/thumb-default.png",
       "components": {
         "c6652b96eb0d4528a60082e8b5dc8713": 1,
@@ -349,11 +349,11 @@
           }
         ]
       ],
-      "updateTime": 1705071340,
+      "updateTime": 1705068929,
       "createTime": 1704948876,
       "histories": [],
       "created_at": "2024-01-11 15:54:36",
-      "updated_at": "2024-01-13 01:55:40"
+      "updated_at": "2024-01-13 01:15:29"
     },
     {
       "uuid": "3c28d6ebf35bedeb0ec7254537b71faa",
@@ -370,24 +370,23 @@
         "c309f5d2eb8e40b796181119d447a76e": 1,
         "108969f8d9834a9ea23bcec2d43a66e4": 8,
         "153ed004b0794cb6b8a2ebde7a1aabdf": 4,
+        "daafcc9fc94a4553a0445517deaa11c5": 6,
+        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
         "09d6dfd5f1bd45ad9666677f79297f6a": 4,
-        "daafcc9fc94a4553a0445517deaa11c5": 2,
         "20fd2e72dc2047eb9e266e83785a7a88": 2,
-        "fa8b3531a8854d41bcf2c462cb2bfc07": 2,
-        "282f7786cb6144d097ae00194c3e3fb3": 3,
-        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1
+        "fa8b3531a8854d41bcf2c462cb2bfc07": 2
       },
       "BOM": [],
-      "updateTime": 1705071753,
+      "updateTime": 1705068360,
       "createTime": 1704949650,
       "histories": [],
       "created_at": "2024-01-11 16:07:30",
-      "updated_at": "2024-01-13 02:02:33"
+      "updated_at": "2024-01-13 01:06:00"
     }
   ],
   "sort": [],
   "title": "node1-esp32s3-waveshare",
   "foldername": "node1-esp32s3-waveshare",
   "schfilename": "node1-esp32s3-waveshare.json",
-  "schfilemtime": 1705071340589
+  "schfilemtime": 1705068929182
 }

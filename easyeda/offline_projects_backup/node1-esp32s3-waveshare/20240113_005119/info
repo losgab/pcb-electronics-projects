@@ -4,7 +4,7 @@
   "name": "node1-esp32s3-waveshare",
   "content": "",
   "created_at": "2024-01-11 15:54:36",
-  "updated_at": "2024-01-13 02:02:33",
+  "updated_at": "2024-01-13 00:51:19",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "e3487ead31ab15ec560eb69ca9718439",
       "thumb": "/images/thumb-default.png",
       "components": {
         "c6652b96eb0d4528a60082e8b5dc8713": 1,
@@ -20,12 +20,11 @@
         "a052559478a14ee2b9e3514bee4ff72d": 8,
         "5bc6d2cd6ba84df5977ef6eaca0c23d6": 4,
         "b209a50da6444550a2c1c06246247e15": 1,
+        "33d948a91aef4e86b4d9c54292e40669": 6,
         "64752082718c4c8c9de1f63fde7f74df": 1,
-        "33d948a91aef4e86b4d9c54292e40669": 2,
         "e162ca3fb60349e483cfc431290a3ee0": 1,
         "2af52a542c9249d9b944d512475fba89": 2,
-        "d851786b5c664ff789b13c0741460439": 2,
-        "f5b1d9403e49471cab43bc5a1bec336f": 3
+        "d851786b5c664ff789b13c0741460439": 2
       },
       "BOM": [
         [
@@ -84,22 +83,6 @@
           }
         ],
         [
-          "HDR-M-2.54_1x4",
-          3,
-          "HDR-M-2.54_1X4",
-          "5V_SERVO,GND_SERVO,PWM",
-          {
-            "Supplier Part": "C124378",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
-            "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x4",
-            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
-            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
-          }
-        ],
-        [
           "B1",
           4,
           "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
@@ -151,10 +134,78 @@
           }
         ],
         [
+          "GPIO15",
+          1,
+          "CONN-TH_XH-3A",
+          "GPIO15",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C95019",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-3A 红色",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-3A 红色",
+            "puuid": "daafcc9fc94a4553a0445517deaa11c5",
+            "uuid": "33d948a91aef4e86b4d9c54292e40669"
+          }
+        ],
+        [
+          "GPIO16",
+          1,
+          "CONN-TH_XH-3A",
+          "GPIO16",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C95019",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-3A 红色",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-3A 红色",
+            "puuid": "daafcc9fc94a4553a0445517deaa11c5",
+            "uuid": "33d948a91aef4e86b4d9c54292e40669"
+          }
+        ],
+        [
+          "GPIO17",
+          1,
+          "CONN-TH_XH-3A",
+          "GPIO17",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C95019",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-3A 红色",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-3A 红色",
+            "puuid": "daafcc9fc94a4553a0445517deaa11c5",
+            "uuid": "33d948a91aef4e86b4d9c54292e40669"
+          }
+        ],
+        [
+          "GPIO18",
+          1,
+          "CONN-TH_XH-3A",
+          "GPIO18",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C95019",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-3A 红色",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-3A 红色",
+            "puuid": "daafcc9fc94a4553a0445517deaa11c5",
+            "uuid": "33d948a91aef4e86b4d9c54292e40669"
+          }
+        ],
+        [
           "GPIO33-36",
           1,
           "CONN-TH_XH-5A",
-          "GPIO15-18",
+          "GPIO33-36",
           {
             "Supplier": "LCSC",
             "Supplier Part": "C17700949",
@@ -349,11 +400,11 @@
           }
         ]
       ],
-      "updateTime": 1705071340,
+      "updateTime": 1705067479,
       "createTime": 1704948876,
       "histories": [],
       "created_at": "2024-01-11 15:54:36",
-      "updated_at": "2024-01-13 01:55:40"
+      "updated_at": "2024-01-13 00:51:19"
     },
     {
       "uuid": "3c28d6ebf35bedeb0ec7254537b71faa",
@@ -370,24 +421,23 @@
         "c309f5d2eb8e40b796181119d447a76e": 1,
         "108969f8d9834a9ea23bcec2d43a66e4": 8,
         "153ed004b0794cb6b8a2ebde7a1aabdf": 4,
+        "daafcc9fc94a4553a0445517deaa11c5": 6,
+        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
         "09d6dfd5f1bd45ad9666677f79297f6a": 4,
-        "daafcc9fc94a4553a0445517deaa11c5": 2,
         "20fd2e72dc2047eb9e266e83785a7a88": 2,
-        "fa8b3531a8854d41bcf2c462cb2bfc07": 2,
-        "282f7786cb6144d097ae00194c3e3fb3": 3,
-        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1
+        "fa8b3531a8854d41bcf2c462cb2bfc07": 2
       },
       "BOM": [],
-      "updateTime": 1705071753,
+      "updateTime": 1705067395,
       "createTime": 1704949650,
       "histories": [],
       "created_at": "2024-01-11 16:07:30",
-      "updated_at": "2024-01-13 02:02:33"
+      "updated_at": "2024-01-13 00:49:55"
     }
   ],
   "sort": [],
   "title": "node1-esp32s3-waveshare",
   "foldername": "node1-esp32s3-waveshare",
   "schfilename": "node1-esp32s3-waveshare.json",
-  "schfilemtime": 1705071340589
+  "schfilemtime": 1705067479910
 }
