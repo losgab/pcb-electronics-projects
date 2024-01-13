@@ -4,7 +4,7 @@
   "name": "node1-esp32s3-waveshare",
   "content": "",
   "created_at": "2024-01-11 15:54:36",
-  "updated_at": "2024-01-14 01:30:30",
+  "updated_at": "2024-01-14 01:27:51",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "d8f3206fc227d0b11ace46551f29e935",
       "thumb": "/images/thumb-default.png",
       "components": {
         "c6652b96eb0d4528a60082e8b5dc8713": 1,
@@ -378,11 +378,11 @@
         "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1
       },
       "BOM": [],
-      "updateTime": 1705156230,
+      "updateTime": 1705155677,
       "createTime": 1704949650,
       "histories": [],
       "created_at": "2024-01-11 16:07:30",
-      "updated_at": "2024-01-14 01:30:30"
+      "updated_at": "2024-01-14 01:21:17"
     }
   ],
   "sort": [],
