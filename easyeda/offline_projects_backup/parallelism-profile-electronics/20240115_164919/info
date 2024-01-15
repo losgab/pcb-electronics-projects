@@ -4,7 +4,7 @@
   "name": "parallelism-profile-electronics",
   "content": "",
   "created_at": "2023-11-30 16:09:11",
-  "updated_at": "2024-01-08 15:07:24",
+  "updated_at": "2024-01-15 16:49:19",
   "stick": "",
   "documents": [
     {
@@ -20,7 +20,11 @@
         "64752082718c4c8c9de1f63fde7f74df": 1,
         "d6e25a7833a242939ca2953d9eadd31f": 1,
         "5bc6d2cd6ba84df5977ef6eaca0c23d6": 2,
-        "776a791d68cf4eefa2b838aeacc5f7be": 1
+        "1ca2485b47f74026b0d3c793b9fb3ec1": 1,
+        "b209a50da6444550a2c1c06246247e15": 1,
+        "2761b94687ab41ae86f3c0afca94138d": 1,
+        "3f3c52126b154338a1818f541153d20f": 1,
+        "e162ca3fb60349e483cfc431290a3ee0": 1
       },
       "BOM": [
         [
@@ -50,6 +54,26 @@
           }
         ],
         [
+          "1N5819-TP",
+          1,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-FD",
+          "D1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C725292",
+            "Manufacturer": "MCC(美微科)",
+            "Manufacturer Part": "1N5819-TP",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C725292&%26type=1&ref=editor",
+            "3DModel": "DO-41_D2.4-L4.7-P8.70",
+            "spiceSymbolName": "1N5819-TP",
+            "Package Display": "Yes",
+            "puuid": "f9b6c4acbda64b569861a21e133c291c",
+            "uuid": "2761b94687ab41ae86f3c0afca94138d"
+          }
+        ],
+        [
           "CD4052BE",
           1,
           "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
@@ -65,6 +89,133 @@
             "Package Display": "Yes",
             "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
             "uuid": "8f733e49a30f827a0cac184a18741c55"
+          }
+        ],
+        [
+          "CON_TERMINAL_BLOCK_02-5MM",
+          1,
+          "TERMINAL_BLOCK_2P_5",
+          "J1",
+          {
+            "description": "2 poles wire to board terminal block",
+            "Contributor": "DangerousPrototype",
+            "spiceSymbolName": "CON_TERMINAL_BLOCK_02-5MM",
+            "Manufacturer Part": "",
+            "puuid": "e98f44b0812c44de84ef8c8e9ff5759f",
+            "uuid": "e162ca3fb60349e483cfc431290a3ee0"
+          }
+        ],
+        [
+          "MCM0",
+          1,
+          "CONN-TH_XH-2.54-4",
+          "M1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900005230",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH-2.54-4",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
+            "spiceSymbolName": "XH-2.54-4",
+            "Package Display": "Yes",
+            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
+            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
+          }
+        ],
+        [
+          "MCM1",
+          1,
+          "CONN-TH_XH-2.54-4",
+          "M2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900005230",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH-2.54-4",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
+            "spiceSymbolName": "XH-2.54-4",
+            "Package Display": "Yes",
+            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
+            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
+          }
+        ],
+        [
+          "MCM2",
+          1,
+          "CONN-TH_XH-2.54-4",
+          "M3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900005230",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH-2.54-4",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
+            "spiceSymbolName": "XH-2.54-4",
+            "Package Display": "Yes",
+            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
+            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
+          }
+        ],
+        [
+          "MCM3",
+          1,
+          "CONN-TH_XH-2.54-4",
+          "M4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900005230",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH-2.54-4",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
+            "spiceSymbolName": "XH-2.54-4",
+            "Package Display": "Yes",
+            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
+            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
+          }
+        ],
+        [
+          "XH-D-2A",
+          1,
+          "CONN-TH_XH-2A",
+          "SD_POWER",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5160911",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Manufacturer Part": "XH-D-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C5160911&%26type=1&ref=editor",
+            "spiceSymbolName": "XH-D-2A",
+            "Package Display": "Yes",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "1ca2485b47f74026b0d3c793b9fb3ec1"
+          }
+        ],
+        [
+          "XD-XH-5A-G",
+          1,
+          "CONN-TH_XH-5A",
+          "SD_SPI",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C17700949",
+            "Manufacturer": "XUNDA(讯答)",
+            "Manufacturer Part": "XD-XH-5A-G",
+            "Contributor": "lcsc",
+            "link": "https://lcsc.com/eda_search?q=C17700949&%26type=1&ref=editor",
+            "spiceSymbolName": "XD-XH-5A-G",
+            "Package Display": "Yes",
+            "puuid": "9c54a2a8a5534fbf9f5a52cf9eb026fc",
+            "uuid": "b209a50da6444550a2c1c06246247e15"
           }
         ],
         [
@@ -86,79 +237,20 @@
           }
         ],
         [
-          "MCM0",
+          "XIAO_ESP32S3",
           1,
-          "CONN-TH_XH-2.54-4",
+          "XIAO_ESP32-S3_THROUGHHOLE",
           "U2",
           {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900005230",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH-2.54-4",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
-            "spiceSymbolName": "XH-2.54-4",
-            "Package Display": "Yes",
-            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
-            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
-          }
-        ],
-        [
-          "MCM1",
-          1,
-          "CONN-TH_XH-2.54-4",
-          "U3",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900005230",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH-2.54-4",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
-            "spiceSymbolName": "XH-2.54-4",
-            "Package Display": "Yes",
-            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
-            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
-          }
-        ],
-        [
-          "MCM2",
-          1,
-          "CONN-TH_XH-2.54-4",
-          "U4",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900005230",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH-2.54-4",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
-            "spiceSymbolName": "XH-2.54-4",
-            "Package Display": "Yes",
-            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
-            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
-          }
-        ],
-        [
-          "MCM3",
-          1,
-          "CONN-TH_XH-2.54-4",
-          "U5",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900005230",
-            "Manufacturer": "null",
-            "Manufacturer Part": "XH-2.54-4",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900005230&%26type=1&ref=editor",
-            "spiceSymbolName": "XH-2.54-4",
-            "Package Display": "Yes",
-            "puuid": "c30f9f49a2f9491a93a088928eb20cfc",
-            "uuid": "52298fd8e7994f36be79ad4f3e973f02"
+            "Manufacturer": "SEEED STUDIO",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "Gabriel Thien",
+            "spiceSymbolName": "XIAO_ESP32S3",
+            "puuid": "89ad951208b64a03ba14148abc205cb4",
+            "uuid": "3f3c52126b154338a1818f541153d20f"
           }
         ],
         [
@@ -180,23 +272,6 @@
           }
         ],
         [
-          "XIAO-ESP32-S3",
-          1,
-          "XIAO-ESP32-S3",
-          "U7",
-          {
-            "Manufacturer": "",
-            "Manufacturer Part": "",
-            "Supplier": "",
-            "Supplier Part": "",
-            "link": "",
-            "Contributor": "bijanmohandes",
-            "spiceSymbolName": "XIAO-ESP32-S3",
-            "puuid": "83ce1f26659646f499293b3084a4ccd9",
-            "uuid": "776a791d68cf4eefa2b838aeacc5f7be"
-          }
-        ],
-        [
           "S2",
           1,
           "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
@@ -215,11 +290,11 @@
           }
         ]
       ],
-      "updateTime": 1704683899,
+      "updateTime": 1705297557,
       "createTime": 1701320951,
       "histories": [],
       "created_at": "2023-11-30 16:09:11",
-      "updated_at": "2024-01-08 14:18:19"
+      "updated_at": "2024-01-15 16:45:57"
     },
     {
       "uuid": "b8bf7269fa01aa2ee029a91ffa2735be",
@@ -231,24 +306,28 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "83ce1f26659646f499293b3084a4ccd9": 1,
-        "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
-        "f2561f0fa47346d3a02d341f9e29ef9e": 1,
+        "e98f44b0812c44de84ef8c8e9ff5759f": 1,
+        "89ad951208b64a03ba14148abc205cb4": 1,
         "121772e35f5b499a80a9dde8cdbcb530": 1,
+        "c309f5d2eb8e40b796181119d447a76e": 1,
         "c30f9f49a2f9491a93a088928eb20cfc": 4,
-        "c309f5d2eb8e40b796181119d447a76e": 1
+        "743f02f614624025bdfe490c3e40495d": 1,
+        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
+        "f9b6c4acbda64b569861a21e133c291c": 1,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
+        "f2561f0fa47346d3a02d341f9e29ef9e": 1
       },
       "BOM": [],
-      "updateTime": 1704686844,
+      "updateTime": 1705297759,
       "createTime": 1703141640,
       "histories": [],
       "created_at": "2023-12-21 17:54:00",
-      "updated_at": "2024-01-08 15:07:24"
+      "updated_at": "2024-01-15 16:49:19"
     }
   ],
   "sort": [],
   "title": "parallelism-profile-electronics",
   "foldername": "parallelism-profile-electronics",
   "schfilename": "parallelism-profile-electronics.json",
-  "schfilemtime": 1704683899897
+  "schfilemtime": 1705297557556
 }
