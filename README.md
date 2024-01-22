@@ -25,7 +25,7 @@ Specifically, these projects either:
 |                       Top Side                       |                     Bottom Side                      |
 | :--------------------------------------------------: | :--------------------------------------------------: |
 | ![alt text](/img/glass_suction_power_control_ts.png) | ![alt text](/img/glass_suction_power_control_bs.png) |
-|                       COMING!                        |                       COMING!                        |
+| ![alt text](/img/glass_suction_power_control_1.jpg) | ![alt text](/img/glass_suction_power_control_2.jpg) |
 
 ## Capacitive Liquid Level Sensing
 |                         Top Side                         |                       Bottom Side                        |
@@ -40,7 +40,13 @@ Specifically, these projects either:
 |                  COMING!                   |                  COMING!                   |
 
 ## Parallelism & Nominal Profile Quality Control PLC
-|                        Top Side                         |                       Bottom Side                       |
-| :-----------------------------------------------------: | :-----------------------------------------------------: |
-| ![alt text](/img/parallel-profile-control-board-ts.png) | ![alt text](/img/parallel-profile-control-board-bs.png) |
-|                         COMING!                         |                         COMING!                         |
+|                            Top Side                            |                       Bottom Side                       |
+| :------------------------------------------------------------: | :-----------------------------------------------------: |
+|    ![alt text](/img/parallel-profile-control-board-ts.png)     | ![alt text](/img/parallel-profile-control-board-bs.png) |
+| ![alt text](/img/parallel-profile-control-board-assembled.jpg) | ![alt text](/img/parallel-profile-control-board-2.jpg)  |
+
+## ESP32-S3 Development Board
+|                  Top Side                   |                 Bottom Side                 |
+| :-----------------------------------------: | :-----------------------------------------: |
+| ![alt text](/img/IoT_Node1_ESP32-S3-ts.png) | ![alt text](/img/IoT_Node1_ESP32-S3-bs.png) |
+|     ![alt text](/img/IoT_Node1-ts.jpg)      |     ![alt text](/img/IoT_Node1-bs.jpg)      |
