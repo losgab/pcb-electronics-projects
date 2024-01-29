@@ -16,5 +16,8 @@
   "3c28d6ebf35bedeb0ec7254537b71faa": "node1-esp32s3-waveshare\\PCB_node1-esp32s3-waveshare.json",
   "9adef70f2fcc97daefba0a8b1b885d5c": "parallelism-profile-electronics",
   "cce0247227f3a5ea234343eddeeb9114": "parallelism-profile-electronics\\parallelism-profile-electronics.json?Sheet_1",
-  "b8bf7269fa01aa2ee029a91ffa2735be": "parallelism-profile-electronics\\PCB_parallelism-profile-electronics.json"
+  "b8bf7269fa01aa2ee029a91ffa2735be": "parallelism-profile-electronics\\PCB_parallelism-profile-electronics.json",
+  "ea4be20674216b3becca95a266165a9c": "remote-digital-liquid-sensor",
+  "7f164cea9019afb4d4bca7d4385a704d": "remote-digital-liquid-sensor\\remote-digital-liquid-sensor.json?Sheet_1",
+  "e5bd8502ea0d2c8e07a1bc4af17de0d6": "remote-digital-liquid-sensor\\PCB_remote-digital-liquid-sensor.json"
 }
