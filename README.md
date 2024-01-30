@@ -16,6 +16,8 @@ Specifically, these projects either:
 | [Light Filter Alignment & Calibration Tool](#light-filter-alignment--calibration-tool)                 | deets       |
 | [Glass Prep & Suction Power Control](#glass-prep--suction-power-control)                               | deets       |
 | [Parallelism & Nominal Profile Quality Control PLC](#parallelism--nominal-profile-quality-control-plc) | deets       |
+| [ESP32-S3 Development Board](#esp32-s3-development-board) | deets       |
+| [Digital Capacitive Liquid Sensor](#digital-capacitive-liquid-sensor) | deets       |
 
 
 *Designed using Altium Designer, Autodesk EAGLE & EasyEDA.*
@@ -50,3 +52,8 @@ Specifically, these projects either:
 | :-----------------------------------------: | :-----------------------------------------: |
 | ![alt text](/img/IoT_Node1_ESP32-S3-ts.png) | ![alt text](/img/IoT_Node1_ESP32-S3-bs.png) |
 |     ![alt text](/img/IoT_Node1-ts.jpg)      |     ![alt text](/img/IoT_Node1-bs.jpg)      |
+
+## Digital Capacitive Liquid Sensor
+|                  Top Side                   |                 Bottom Side                 |
+| :-----------------------------------------: | :-----------------------------------------: |
+| ![alt text](/img/digital-capacitive-liquid-sensor-ts.png) | ![alt text](/img/digital-capacitive-liquid-sensor-bs.png) |
