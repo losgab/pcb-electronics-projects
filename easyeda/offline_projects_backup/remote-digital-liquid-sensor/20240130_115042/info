@@ -4,7 +4,7 @@
   "name": "remote-digital-liquid-sensor",
   "content": "",
   "created_at": "2024-01-29 12:51:31",
-  "updated_at": "2024-01-30 12:54:53",
+  "updated_at": "2024-01-30 11:50:42",
   "stick": "",
   "documents": [
     {
@@ -18,8 +18,8 @@
         "e097ef27e58f49579c77217644a1020d": 1,
         "24eeb2ceca08480b92b847b6a310acda": 2,
         "bb009484ef804a24ac5d18c54b249586": 3,
-        "404aa9221ff94de597b8734806e7c74f": 1,
-        "38b473b969e84fea981fcbd4577061d0": 1
+        "decc07c3b07f42ac9bd83e2e6a194900": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1
       },
       "BOM": [
         [
@@ -60,35 +60,37 @@
           }
         ],
         [
-          "S3B-PH-SM4-TB(LF)(SN)",
+          "PH-3A",
           1,
-          "CONN-SMD_S3B-PH-SM4-TB-LF-SN",
+          "CONN-TH_PH-3A_RED",
           "CONN1",
           {
-            "Contributor": "LCSC",
+            "Contributor": "lcsc",
             "Supplier": "LCSC",
-            "Supplier Part": "C265101",
-            "Manufacturer": "JST",
-            "Manufacturer Part": "S3B-PH-SM4-TB(LF)(SN)",
+            "Supplier Part": "C9900015915",
+            "Manufacturer": "null",
+            "Manufacturer Part": "PH-3A/红色",
             "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "S3B-PH-SM4-TB(LF)(SN)",
-            "puuid": "4f48be79cff0425faf9dacb3d75cf40f",
-            "uuid": "38b473b969e84fea981fcbd4577061d0"
+            "spiceSymbolName": "PH-3A/红色",
+            "puuid": "6a5b39a0e3934d969f59a847c00c7028",
+            "uuid": "decc07c3b07f42ac9bd83e2e6a194900"
           }
         ],
         [
-          "HDR-M-2.54_1x1",
+          "HDR-F-2.54_1x2",
           1,
-          "HDR-M-2.54_1X1",
+          "HDR-F-2.54_1X2",
           "P1",
           {
-            "Supplier Part": "C81276",
+            "Supplier Part": "C49661",
             "Supplier": "LCSC",
+            "Manufacturer": "",
             "Manufacturer Part": "",
+            "image": "",
             "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x1",
-            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
-            "uuid": "404aa9221ff94de597b8734806e7c74f"
+            "spiceSymbolName": "HDR-F-2.54_1x2",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
           }
         ],
         [
@@ -139,11 +141,11 @@
           }
         ]
       ],
-      "updateTime": 1706578905,
+      "updateTime": 1706572328,
       "createTime": 1706493091,
       "histories": [],
       "created_at": "2024-01-29 12:51:31",
-      "updated_at": "2024-01-30 12:41:45"
+      "updated_at": "2024-01-30 10:52:08"
     },
     {
       "uuid": "e5bd8502ea0d2c8e07a1bc4af17de0d6",
@@ -155,23 +157,23 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "4f48be79cff0425faf9dacb3d75cf40f": 1,
-        "19c77e72422b43b59c26b9fa67af5de4": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "6a5b39a0e3934d969f59a847c00c7028": 1,
         "398691f1f785460098bbe5ee6590333c": 3,
         "f3d2a2ecf658447dac746eb15158a989": 1
       },
       "BOM": [],
-      "updateTime": 1706579693,
+      "updateTime": 1706575842,
       "createTime": 1706508972,
       "histories": [],
       "created_at": "2024-01-29 17:16:12",
-      "updated_at": "2024-01-30 12:54:53"
+      "updated_at": "2024-01-30 11:50:42"
     }
   ],
   "sort": [],
   "title": "remote-digital-liquid-sensor",
   "foldername": "remote-digital-liquid-sensor",
   "schfilename": "remote-digital-liquid-sensor.json",
-  "schfilemtime": 1706578905763
+  "schfilemtime": 1706572328478
 }

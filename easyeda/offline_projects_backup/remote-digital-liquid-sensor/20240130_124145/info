@@ -4,7 +4,7 @@
   "name": "remote-digital-liquid-sensor",
   "content": "",
   "created_at": "2024-01-29 12:51:31",
-  "updated_at": "2024-01-30 12:54:53",
+  "updated_at": "2024-01-30 12:41:45",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "9e7bfa4297b56cd9f8e9f569f9c8712d",
       "thumb": "/images/thumb-default.png",
       "components": {
         "e097ef27e58f49579c77217644a1020d": 1,
@@ -155,18 +155,18 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "4f48be79cff0425faf9dacb3d75cf40f": 1,
         "19c77e72422b43b59c26b9fa67af5de4": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "6a5b39a0e3934d969f59a847c00c7028": 1,
         "398691f1f785460098bbe5ee6590333c": 3,
         "f3d2a2ecf658447dac746eb15158a989": 1
       },
       "BOM": [],
-      "updateTime": 1706579693,
+      "updateTime": 1706578126,
       "createTime": 1706508972,
       "histories": [],
       "created_at": "2024-01-29 17:16:12",
-      "updated_at": "2024-01-30 12:54:53"
+      "updated_at": "2024-01-30 12:28:46"
     }
   ],
   "sort": [],
