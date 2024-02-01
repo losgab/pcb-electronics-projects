@@ -4,7 +4,7 @@
   "name": "remote-digital-liquid-sensor",
   "content": "",
   "created_at": "2024-01-29 12:51:31",
-  "updated_at": "2024-02-01 10:18:58",
+  "updated_at": "2024-02-01 09:59:09",
   "stick": "",
   "documents": [
     {
@@ -162,11 +162,11 @@
         "f3d2a2ecf658447dac746eb15158a989": 1
       },
       "BOM": [],
-      "updateTime": 1706743138,
+      "updateTime": 1706741949,
       "createTime": 1706508972,
       "histories": [],
       "created_at": "2024-01-29 17:16:12",
-      "updated_at": "2024-02-01 10:18:58"
+      "updated_at": "2024-02-01 09:59:09"
     }
   ],
   "sort": [],
