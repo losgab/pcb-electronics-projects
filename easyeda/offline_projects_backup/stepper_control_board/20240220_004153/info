@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "ef35c8e7c035c0b3e0501bdb34cb69c4",
       "thumb": "/images/thumb-default.png",
       "components": {
         "667cb6b4aea24e7fa73f9edbca160ac5": 1,
