@@ -1,0 +1,94 @@
+{
+  "uuid": "2f405014b1147b2de1c1529c7992d310",
+  "path": "Offline/stepper_control_board",
+  "name": "stepper_control_board",
+  "content": "",
+  "created_at": "2024-02-19 16:27:00",
+  "updated_at": "2024-02-19 16:41:38",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "9cdd4579a0b2a48d4608db4659b00a50",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "3503b0fe4add4688c0290325a28574f3",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "667cb6b4aea24e7fa73f9edbca160ac5": 1,
+        "dbf31036290d45ec8b7012431942545b": 1,
+        "1ca2485b47f74026b0d3c793b9fb3ec1": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "XH4X2.54V",
+          1,
+          "CONN-TH_XH-4A",
+          "CN1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900021957",
+            "Manufacturer": "null",
+            "Manufacturer Part": "XH4x2.54V",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH4X2.54V",
+            "puuid": "09d6dfd5f1bd45ad9666677f79297f6a",
+            "uuid": "dbf31036290d45ec8b7012431942545b"
+          }
+        ],
+        [
+          "XH-D-2A",
+          2,
+          "CONN-TH_XH-2A",
+          "CN2,CN3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5160911",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Manufacturer Part": "XH-D-2A",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-D-2A",
+            "puuid": "743f02f614624025bdfe490c3e40495d",
+            "uuid": "1ca2485b47f74026b0d3c793b9fb3ec1"
+          }
+        ],
+        [
+          "TMC2208_SilentStepStick",
+          1,
+          "",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "AnalogDevices",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "Gabriel Thien",
+            "spiceSymbolName": "TMC2208_SilentStepStick",
+            "puuid": "",
+            "uuid": "667cb6b4aea24e7fa73f9edbca160ac5"
+          }
+        ]
+      ],
+      "updateTime": 1708321298,
+      "createTime": 1708320420,
+      "histories": [],
+      "created_at": "2024-02-19 16:27:00",
+      "updated_at": "2024-02-19 16:41:38"
+    }
+  ],
+  "sort": [],
+  "title": "stepper_control_board",
+  "foldername": "stepper_control_board",
+  "schfilename": "stepper_control_board.json",
+  "schfilemtime": 1708321298902
+}

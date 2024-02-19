@@ -4,7 +4,7 @@
   "name": "remote-digital-liquid-sensor",
   "content": "",
   "created_at": "2024-01-29 12:51:31",
-  "updated_at": "2024-02-19 16:13:44",
+  "updated_at": "2024-02-19 15:19:56",
   "stick": "",
   "documents": [
     {
@@ -12,15 +12,14 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "6c17c73d08e3b368bad252274b90396f",
       "thumb": "/images/thumb-default.png",
       "components": {
         "e097ef27e58f49579c77217644a1020d": 1,
         "24eeb2ceca08480b92b847b6a310acda": 2,
-        "bb009484ef804a24ac5d18c54b249586": 6,
+        "bb009484ef804a24ac5d18c54b249586": 5,
         "404aa9221ff94de597b8734806e7c74f": 1,
-        "38b473b969e84fea981fcbd4577061d0": 1,
-        "92c32ceaaac84139add7ebda884f0a47": 1
+        "38b473b969e84fea981fcbd4577061d0": 1
       },
       "BOM": [
         [
@@ -78,22 +77,6 @@
           }
         ],
         [
-          "HDR-M-2.54_1x8",
-          1,
-          "HDR-M-2.54_1X8",
-          "J1",
-          {
-            "Supplier Part": "C190820",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
-            "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x8",
-            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
-            "uuid": "92c32ceaaac84139add7ebda884f0a47"
-          }
-        ],
-        [
           "HDR-M-2.54_1x1",
           1,
           "HDR-M-2.54_1X1",
@@ -140,9 +123,9 @@
         ],
         [
           "4.7K",
-          2,
+          1,
           "R0603",
-          "R4,R6",
+          "R4",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -171,11 +154,11 @@
           }
         ]
       ],
-      "updateTime": 1708319624,
+      "updateTime": 1708316396,
       "createTime": 1706493091,
       "histories": [],
       "created_at": "2024-01-29 12:51:31",
-      "updated_at": "2024-02-19 16:13:44"
+      "updated_at": "2024-02-19 15:19:56"
     },
     {
       "uuid": "e5bd8502ea0d2c8e07a1bc4af17de0d6",
@@ -187,23 +170,23 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "398691f1f785460098bbe5ee6590333c": 6,
-        "19c77e72422b43b59c26b9fa67af5de4": 1,
         "4f48be79cff0425faf9dacb3d75cf40f": 1,
+        "19c77e72422b43b59c26b9fa67af5de4": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "398691f1f785460098bbe5ee6590333c": 3,
         "f3d2a2ecf658447dac746eb15158a989": 1
       },
       "BOM": [],
-      "updateTime": 1708318658,
+      "updateTime": 1706743138,
       "createTime": 1706508972,
       "histories": [],
       "created_at": "2024-01-29 17:16:12",
-      "updated_at": "2024-02-19 15:57:38"
+      "updated_at": "2024-02-01 10:18:58"
     }
   ],
   "sort": [],
   "title": "remote-digital-liquid-sensor",
   "foldername": "remote-digital-liquid-sensor",
   "schfilename": "remote-digital-liquid-sensor.json",
-  "schfilemtime": 1708319624496
+  "schfilemtime": 1708316396482
 }

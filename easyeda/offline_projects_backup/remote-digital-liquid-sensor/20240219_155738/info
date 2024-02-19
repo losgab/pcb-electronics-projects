@@ -4,7 +4,7 @@
   "name": "remote-digital-liquid-sensor",
   "content": "",
   "created_at": "2024-01-29 12:51:31",
-  "updated_at": "2024-02-19 16:13:44",
+  "updated_at": "2024-02-19 15:57:38",
   "stick": "",
   "documents": [
     {
@@ -19,8 +19,7 @@
         "24eeb2ceca08480b92b847b6a310acda": 2,
         "bb009484ef804a24ac5d18c54b249586": 6,
         "404aa9221ff94de597b8734806e7c74f": 1,
-        "38b473b969e84fea981fcbd4577061d0": 1,
-        "92c32ceaaac84139add7ebda884f0a47": 1
+        "38b473b969e84fea981fcbd4577061d0": 1
       },
       "BOM": [
         [
@@ -75,22 +74,6 @@
             "spiceSymbolName": "S3B-PH-SM4-TB(LF)(SN)",
             "puuid": "4f48be79cff0425faf9dacb3d75cf40f",
             "uuid": "38b473b969e84fea981fcbd4577061d0"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x8",
-          1,
-          "HDR-M-2.54_1X8",
-          "J1",
-          {
-            "Supplier Part": "C190820",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
-            "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x8",
-            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
-            "uuid": "92c32ceaaac84139add7ebda884f0a47"
           }
         ],
         [
@@ -171,11 +154,11 @@
           }
         ]
       ],
-      "updateTime": 1708319624,
+      "updateTime": 1708316681,
       "createTime": 1706493091,
       "histories": [],
       "created_at": "2024-01-29 12:51:31",
-      "updated_at": "2024-02-19 16:13:44"
+      "updated_at": "2024-02-19 15:24:41"
     },
     {
       "uuid": "e5bd8502ea0d2c8e07a1bc4af17de0d6",
@@ -205,5 +188,5 @@
   "title": "remote-digital-liquid-sensor",
   "foldername": "remote-digital-liquid-sensor",
   "schfilename": "remote-digital-liquid-sensor.json",
-  "schfilemtime": 1708319624496
+  "schfilemtime": 1708316681477
 }

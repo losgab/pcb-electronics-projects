@@ -19,5 +19,7 @@
   "b8bf7269fa01aa2ee029a91ffa2735be": "parallelism-profile-electronics\\PCB_parallelism-profile-electronics.json",
   "ea4be20674216b3becca95a266165a9c": "remote-digital-liquid-sensor",
   "7f164cea9019afb4d4bca7d4385a704d": "remote-digital-liquid-sensor\\remote-digital-liquid-sensor.json?Sheet_1",
-  "e5bd8502ea0d2c8e07a1bc4af17de0d6": "remote-digital-liquid-sensor\\PCB_remote-digital-liquid-sensor.json"
+  "e5bd8502ea0d2c8e07a1bc4af17de0d6": "remote-digital-liquid-sensor\\PCB_remote-digital-liquid-sensor.json",
+  "2f405014b1147b2de1c1529c7992d310": "stepper_control_board",
+  "9cdd4579a0b2a48d4608db4659b00a50": "stepper_control_board\\stepper_control_board.json?Sheet_1"
 }
