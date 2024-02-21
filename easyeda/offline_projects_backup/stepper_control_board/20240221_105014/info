@@ -4,7 +4,7 @@
   "name": "stepper_control_board",
   "content": "",
   "created_at": "2024-02-19 16:27:00",
-  "updated_at": "2024-02-21 14:53:30",
+  "updated_at": "2024-02-21 10:50:14",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "9851f03fa22757a8eb62e3994ecb91e0",
       "thumb": "/images/thumb-default.png",
       "components": {
         "667cb6b4aea24e7fa73f9edbca160ac5": 1,
@@ -20,9 +20,7 @@
         "1ca2485b47f74026b0d3c793b9fb3ec1": 1,
         "e162ca3fb60349e483cfc431290a3ee0": 1,
         "93722a822c5e492ebff70f8f61ba4676": 1,
-        "f0bc163659d742bc8f021d00cdeb85b2": 2,
-        "df7968c2afd842ddac1a5c0875a04b7c": 1,
-        "3721972c581d4f99b226effb1db7a790": 1
+        "bb009484ef804a24ac5d18c54b249586": 1
       },
       "BOM": [
         [
@@ -84,66 +82,18 @@
           }
         ],
         [
-          "3mm_LED_TH",
-          1,
-          "LED-TH_BD3.0_RED",
-          "LED1",
-          {
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
-            "Manufacturer Part": "204-10SDRD/S530-A3-L",
-            "Supplier Part": "C84774",
-            "Supplier": "LCSC",
-            "link": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "LED-TH-3mm_R",
-            "puuid": "bec79a4ea65a4f65ba290a03b598a762",
-            "uuid": "3721972c581d4f99b226effb1db7a790"
-          }
-        ],
-        [
           "1k",
           1,
-          "R_AXIAL-0.4",
+          "R0603",
           "R1",
           {
             "Supplier Part": "",
             "Supplier": "",
             "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.4_EU",
+            "spiceSymbolName": "R_0603_EU",
             "Manufacturer Part": "",
-            "puuid": "5905db98cde4487fbb177070aa85bbe1",
-            "uuid": "f0bc163659d742bc8f021d00cdeb85b2"
-          }
-        ],
-        [
-          "330",
-          1,
-          "R_AXIAL-0.4",
-          "R2",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.4_EU",
-            "Manufacturer Part": "",
-            "puuid": "5905db98cde4487fbb177070aa85bbe1",
-            "uuid": "f0bc163659d742bc8f021d00cdeb85b2"
-          }
-        ],
-        [
-          "DIP switchEI-04",
-          1,
-          "SW-TH_DIPSWITCHEI-04",
-          "SW1",
-          {
-            "Supplier": "LCSC",
-            "Manufacturer": "圜达",
-            "Manufacturer Part": "拨码开关EI-04",
-            "Supplier Part": "C99987",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "DIP switchEI-04",
-            "puuid": "3c2c7b37c8f74ceeaf8a4de7b7c351b7",
-            "uuid": "df7968c2afd842ddac1a5c0875a04b7c"
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
         ],
         [
@@ -178,11 +128,11 @@
           }
         ]
       ],
-      "updateTime": 1708486773,
+      "updateTime": 1708473014,
       "createTime": 1708320420,
       "histories": [],
       "created_at": "2024-02-19 16:27:00",
-      "updated_at": "2024-02-21 14:39:33"
+      "updated_at": "2024-02-21 10:50:14"
     },
     {
       "uuid": "1e97e247eccaeb7c07d31355df5fbe73",
@@ -194,26 +144,23 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "5905db98cde4487fbb177070aa85bbe1": 2,
         "09d6dfd5f1bd45ad9666677f79297f6a": 1,
         "743f02f614624025bdfe490c3e40495d": 1,
-        "20fd2e72dc2047eb9e266e83785a7a88": 1,
-        "3c2c7b37c8f74ceeaf8a4de7b7c351b7": 1,
-        "bec79a4ea65a4f65ba290a03b598a762": 1,
         "524e4274f7dc4b2ca1133706e8114d6d": 1,
+        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
         "e98f44b0812c44de84ef8c8e9ff5759f": 1
       },
       "BOM": [],
-      "updateTime": 1708487610,
+      "updateTime": 1708472990,
       "createTime": 1708332181,
       "histories": [],
       "created_at": "2024-02-19 19:43:01",
-      "updated_at": "2024-02-21 14:53:30"
+      "updated_at": "2024-02-21 10:49:50"
     }
   ],
   "sort": [],
   "title": "stepper_control_board",
   "foldername": "stepper_control_board",
   "schfilename": "stepper_control_board.json",
-  "schfilemtime": 1708486773393
+  "schfilemtime": 1708473014547
 }

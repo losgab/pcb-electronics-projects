@@ -4,7 +4,7 @@
   "name": "stepper_control_board",
   "content": "",
   "created_at": "2024-02-19 16:27:00",
-  "updated_at": "2024-02-21 14:53:30",
+  "updated_at": "2024-02-21 14:39:33",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "abcf91ad6c81d5fe54577d5201bfe160",
       "thumb": "/images/thumb-default.png",
       "components": {
         "667cb6b4aea24e7fa73f9edbca160ac5": 1,
@@ -194,21 +194,21 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "5905db98cde4487fbb177070aa85bbe1": 2,
-        "09d6dfd5f1bd45ad9666677f79297f6a": 1,
-        "743f02f614624025bdfe490c3e40495d": 1,
         "20fd2e72dc2047eb9e266e83785a7a88": 1,
+        "743f02f614624025bdfe490c3e40495d": 1,
+        "5905db98cde4487fbb177070aa85bbe1": 2,
         "3c2c7b37c8f74ceeaf8a4de7b7c351b7": 1,
         "bec79a4ea65a4f65ba290a03b598a762": 1,
+        "09d6dfd5f1bd45ad9666677f79297f6a": 1,
         "524e4274f7dc4b2ca1133706e8114d6d": 1,
         "e98f44b0812c44de84ef8c8e9ff5759f": 1
       },
       "BOM": [],
-      "updateTime": 1708487610,
+      "updateTime": 1708486627,
       "createTime": 1708332181,
       "histories": [],
       "created_at": "2024-02-19 19:43:01",
-      "updated_at": "2024-02-21 14:53:30"
+      "updated_at": "2024-02-21 14:37:07"
     }
   ],
   "sort": [],
