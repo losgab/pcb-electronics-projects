@@ -1,0 +1,145 @@
+{
+  "uuid": "c053a9d3de484c8f0dddae3c62706365",
+  "path": "Offline/capacitive_level_sensor_V2",
+  "name": "capacitive_level_sensor_V2",
+  "content": "",
+  "created_at": "2024-03-06 10:26:48",
+  "updated_at": "2024-03-06 15:17:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "cf6a2241397c6b36b9ab60ff5592d207",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e0031a84194a47ca9bdbdab08bb45fd9": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "22287dfc4b2548ea85d1b0564884ff36": 1,
+        "bb009484ef804a24ac5d18c54b249586": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7K",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "FDC1004DGSR",
+          1,
+          "MSOP-10",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2865994",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "FDC1004DGSR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "FDC1004DGSR",
+            "puuid": "b77416f886f74a91a0b9ce8513b8c211",
+            "uuid": "e0031a84194a47ca9bdbdab08bb45fd9"
+          }
+        ],
+        [
+          "S4B-PH-SM4-TB(LF)(SN)",
+          1,
+          "CONN-SMD_S4B-PH-SM4-TB-LF-SN",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265102",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S4B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S4B-PH-SM4-TB(LF)(SN)",
+            "puuid": "52a4674d60164c8398c0e500e9bc1b5e",
+            "uuid": "22287dfc4b2548ea85d1b0564884ff36"
+          }
+        ]
+      ],
+      "updateTime": 1709697669,
+      "createTime": 1709681208,
+      "histories": [],
+      "created_at": "2024-03-06 10:26:48",
+      "updated_at": "2024-03-06 15:01:09"
+    },
+    {
+      "uuid": "30306bca2c3b8901758e115f08f1c06a",
+      "puuid": "c053a9d3de484c8f0dddae3c62706365",
+      "title": "PCB_capacitive_level_sensor_V2",
+      "filename": "PCB_capacitive_level_sensor_V2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b77416f886f74a91a0b9ce8513b8c211": 1,
+        "52a4674d60164c8398c0e500e9bc1b5e": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "398691f1f785460098bbe5ee6590333c": 2
+      },
+      "BOM": [],
+      "updateTime": 1709698650,
+      "createTime": 1709690259,
+      "histories": [],
+      "created_at": "2024-03-06 12:57:39",
+      "updated_at": "2024-03-06 15:17:30"
+    }
+  ],
+  "sort": [],
+  "title": "capacitive_level_sensor_V2",
+  "foldername": "capacitive_level_sensor_V2",
+  "schfilename": "capacitive_level_sensor_V2.json",
+  "schfilemtime": 1709697669729
+}
