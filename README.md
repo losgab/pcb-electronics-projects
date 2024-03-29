@@ -12,8 +12,9 @@ Specifically, these projects either:
 ## Project List
 | Project                                                                                                | Description |
 | ------------------------------------------------------------------------------------------------------ | ----------- |
-| [Capacitive Liquid Level Sensing](##-Glass-Prep-&-Suction-Power-Control-Board)                         | deets       |
+| [Capacitive Liquid Level Sensing](#capacitive-liquid-level-sensing)                         | deets       |
 | [Light Filter Alignment & Calibration Tool](#light-filter-alignment--calibration-tool)                 | deets       |
+| V2 | V2 |
 | [Glass Prep & Suction Power Control](#glass-prep--suction-power-control)                               | deets       |
 | [Parallelism & Nominal Profile Quality Control PLC](#parallelism--nominal-profile-quality-control-plc) | deets       |
 | [ESP32-S3 Development Board](#esp32-s3-development-board) | deets       |
@@ -34,6 +35,7 @@ Specifically, these projects either:
 | :------------------------------------------------------: | :------------------------------------------------------: |
 | ![alt text](/img/fdc1004-capacitive-level-sensor-ts.png) | ![alt text](/img/fdc1004-capacitive-level-sensor-bs.png) |
 | ![alt text](/img/fdc1004-capacitive-level-sensor-1.jpg)  | ![alt text](/img/fdc1004-capacitive-level-sensor-2.jpg)  |
+| V2 | V2 |
 
 ## Light Filter Alignment & Calibration Tool
 |                  Top Side                  |                Bottom Side                 |
