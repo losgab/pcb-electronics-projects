@@ -4,7 +4,7 @@
   "name": "capacitive_level_sensor_V2",
   "content": "",
   "created_at": "2024-03-06 10:26:48",
-  "updated_at": "2024-04-10 13:02:35",
+  "updated_at": "2024-04-10 12:50:06",
   "stick": "",
   "documents": [
     {
@@ -130,11 +130,11 @@
         "398691f1f785460098bbe5ee6590333c": 2
       },
       "BOM": [],
-      "updateTime": 1712718155,
+      "updateTime": 1712717406,
       "createTime": 1709690259,
       "histories": [],
       "created_at": "2024-03-06 12:57:39",
-      "updated_at": "2024-04-10 13:02:35"
+      "updated_at": "2024-04-10 12:50:06"
     }
   ],
   "sort": [],

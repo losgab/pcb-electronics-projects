@@ -4,7 +4,7 @@
   "name": "capacitive_level_sensor_V2",
   "content": "",
   "created_at": "2024-03-06 10:26:48",
-  "updated_at": "2024-04-10 13:02:35",
+  "updated_at": "2024-04-10 12:22:10",
   "stick": "",
   "documents": [
     {
@@ -108,11 +108,11 @@
           }
         ]
       ],
-      "updateTime": 1712715973,
+      "updateTime": 1709698660,
       "createTime": 1709681208,
       "histories": [],
       "created_at": "2024-03-06 10:26:48",
-      "updated_at": "2024-04-10 12:26:13"
+      "updated_at": "2024-03-06 15:17:40"
     },
     {
       "uuid": "30306bca2c3b8901758e115f08f1c06a",
@@ -130,16 +130,16 @@
         "398691f1f785460098bbe5ee6590333c": 2
       },
       "BOM": [],
-      "updateTime": 1712718155,
+      "updateTime": 1712715730,
       "createTime": 1709690259,
       "histories": [],
       "created_at": "2024-03-06 12:57:39",
-      "updated_at": "2024-04-10 13:02:35"
+      "updated_at": "2024-04-10 12:22:10"
     }
   ],
   "sort": [],
   "title": "capacitive_level_sensor_V2",
   "foldername": "capacitive_level_sensor_V2",
   "schfilename": "capacitive_level_sensor_V2.json",
-  "schfilemtime": 1712715973410
+  "schfilemtime": 1709698660013
 }
