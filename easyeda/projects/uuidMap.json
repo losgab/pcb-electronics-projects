@@ -23,6 +23,9 @@
   "ea4be20674216b3becca95a266165a9c": "remote-digital-liquid-sensor",
   "7f164cea9019afb4d4bca7d4385a704d": "remote-digital-liquid-sensor\\remote-digital-liquid-sensor.json?Sheet_1",
   "e5bd8502ea0d2c8e07a1bc4af17de0d6": "remote-digital-liquid-sensor\\PCB_remote-digital-liquid-sensor.json",
+  "b028d1b1a825ec77663304ef3cae65a9": "servo-flipper",
+  "4ef39a4fc0c8d52c3dd64ab3d8f17841": "servo-flipper\\servo-flipper.json?Sheet_1",
+  "f05cc0b5d0d099b4287c0983e45b6c22": "servo-flipper\\PCB_servo-flipper.json",
   "2f405014b1147b2de1c1529c7992d310": "stepper_control_board",
   "9cdd4579a0b2a48d4608db4659b00a50": "stepper_control_board\\stepper_control_board.json?Sheet_1",
   "1e97e247eccaeb7c07d31355df5fbe73": "stepper_control_board\\PCB_stepper_control_board.json"

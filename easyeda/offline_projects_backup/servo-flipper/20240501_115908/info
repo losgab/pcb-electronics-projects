@@ -1,0 +1,110 @@
+{
+  "uuid": "b028d1b1a825ec77663304ef3cae65a9",
+  "path": "Offline/servo-flipper",
+  "name": "servo-flipper",
+  "content": "",
+  "created_at": "2024-05-01 11:46:36",
+  "updated_at": "2024-05-01 11:59:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4ef39a4fc0c8d52c3dd64ab3d8f17841",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "5e4754ffb134d21e6986f5d1bb8b5265",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "38411988f5e34d5f9faeb92a6f7bfacc": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "f0236a8022f64f3da5d82a1650fe24d3": 1,
+        "802d5fb448efd3d50e4ac51c5f201094": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J1",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "XL-5050RGBC-WS2812B",
+          1,
+          "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+          "LED1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843785",
+            "Manufacturer": "XINGLIGHT(成兴光)",
+            "Manufacturer Part": "XL-5050RGBC-WS2812B",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL-5050RGBC-WS2812B",
+            "puuid": "b55714c828764ab8ba5599ca60f132ba",
+            "uuid": "f0236a8022f64f3da5d82a1650fe24d3"
+          }
+        ],
+        [
+          "Button-6x6x6mm",
+          3,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.1",
+          "SW1,SW2,SW3",
+          {
+            "Supplier Part": "C71836",
+            "Supplier": "LCSC",
+            "Manufacturer": "BBJ",
+            "Manufacturer Part": "Switch,6*6*6Plastic head,260G, 0.25mm,Straight line",
+            "spiceSymbolName": "Button-6x6x6mm",
+            "puuid": "adb9d1cbaa7f49818fd5f248baf30043",
+            "uuid": "802d5fb448efd3d50e4ac51c5f201094"
+          }
+        ],
+        [
+          "ATTINY85V-10PU",
+          1,
+          "PDIP-8_L9.6-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1339742",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "ATTINY85V-10PU",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ATTINY85V-10PU",
+            "puuid": "d0e041d97bdd449d8a2e6e1b6660be6f",
+            "uuid": "38411988f5e34d5f9faeb92a6f7bfacc"
+          }
+        ]
+      ],
+      "updateTime": 1714528748,
+      "createTime": 1714527997,
+      "histories": [],
+      "created_at": "2024-05-01 11:46:37",
+      "updated_at": "2024-05-01 11:59:08"
+    }
+  ],
+  "sort": [],
+  "title": "servo-flipper",
+  "foldername": "servo-flipper",
+  "schfilename": "servo-flipper.json",
+  "schfilemtime": 1714528748420
+}

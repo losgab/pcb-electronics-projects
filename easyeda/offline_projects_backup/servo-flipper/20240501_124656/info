@@ -1,0 +1,131 @@
+{
+  "uuid": "b028d1b1a825ec77663304ef3cae65a9",
+  "path": "Offline/servo-flipper",
+  "name": "servo-flipper",
+  "content": "",
+  "created_at": "2024-05-01 11:46:36",
+  "updated_at": "2024-05-01 12:46:56",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4ef39a4fc0c8d52c3dd64ab3d8f17841",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "f0236a8022f64f3da5d82a1650fe24d3": 1,
+        "802d5fb448efd3d50e4ac51c5f201094": 3,
+        "5a9ec2085ad6436d86701332d4451b76": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x15",
+          2,
+          "HDR-F-2.54_1X15",
+          "H1,H2",
+          {
+            "Supplier Part": "C124408",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x15",
+            "puuid": "bce4bcfcccfb42a296f7a392ab0b7199",
+            "uuid": "5a9ec2085ad6436d86701332d4451b76"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J1",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "XL-5050RGBC-WS2812B",
+          1,
+          "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+          "LED1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843785",
+            "Manufacturer": "XINGLIGHT(成兴光)",
+            "Manufacturer Part": "XL-5050RGBC-WS2812B",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL-5050RGBC-WS2812B",
+            "puuid": "b55714c828764ab8ba5599ca60f132ba",
+            "uuid": "f0236a8022f64f3da5d82a1650fe24d3"
+          }
+        ],
+        [
+          "Button-6x6x6mm",
+          3,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.1",
+          "SW1,SW2,SW3",
+          {
+            "Supplier Part": "C71836",
+            "Supplier": "LCSC",
+            "Manufacturer": "BBJ",
+            "Manufacturer Part": "Switch,6*6*6Plastic head,260G, 0.25mm,Straight line",
+            "spiceSymbolName": "Button-6x6x6mm",
+            "puuid": "adb9d1cbaa7f49818fd5f248baf30043",
+            "uuid": "802d5fb448efd3d50e4ac51c5f201094"
+          }
+        ]
+      ],
+      "updateTime": 1714530685,
+      "createTime": 1714527997,
+      "histories": [],
+      "created_at": "2024-05-01 11:46:37",
+      "updated_at": "2024-05-01 12:31:25"
+    },
+    {
+      "uuid": "f05cc0b5d0d099b4287c0983e45b6c22",
+      "puuid": "b028d1b1a825ec77663304ef3cae65a9",
+      "title": "PCB_servo-flipper",
+      "filename": "PCB_servo-flipper.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9f77654394344f25b3de138e0fe05ff6": 1,
+        "b55714c828764ab8ba5599ca60f132ba": 1,
+        "adb9d1cbaa7f49818fd5f248baf30043": 3,
+        "bce4bcfcccfb42a296f7a392ab0b7199": 2
+      },
+      "BOM": [],
+      "updateTime": 1714531616,
+      "createTime": 1714528848,
+      "histories": [],
+      "created_at": "2024-05-01 12:00:48",
+      "updated_at": "2024-05-01 12:46:56"
+    }
+  ],
+  "sort": [],
+  "title": "servo-flipper",
+  "foldername": "servo-flipper",
+  "schfilename": "servo-flipper.json",
+  "schfilemtime": 1714530685769
+}
