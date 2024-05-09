@@ -4,7 +4,7 @@
   "name": "servo-flipper",
   "content": "",
   "created_at": "2024-05-01 11:46:36",
-  "updated_at": "2024-05-09 16:56:56",
+  "updated_at": "2024-05-09 09:57:50",
   "stick": "",
   "documents": [
     {
@@ -12,18 +12,14 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "cda01551e2e77797f1294f872fba71d8",
       "thumb": "/images/thumb-default.png",
       "components": {
         "a68dc5e6a9944c46b7604648a43dcd65": 1,
         "f0236a8022f64f3da5d82a1650fe24d3": 1,
         "802d5fb448efd3d50e4ac51c5f201094": 3,
-        "ae89dce34dea4c73b75e833dea09145d": 1,
-        "b0248eb51e084227889f2cb84eab79c4": 2,
-        "48862153cc7d4a3c94a6b021ab8e9101": 1,
-        "02d3646832c3448e80e1fcfe698e9653": 1,
-        "cec5ab210a5148afb426506417eeb5b3": 1,
-        "24eeb2ceca08480b92b847b6a310acda": 1
+        "5a9ec2085ad6436d86701332d4451b76": 2,
+        "ae89dce34dea4c73b75e833dea09145d": 1
       },
       "BOM": [
         [
@@ -34,35 +30,19 @@
           "CustomPara"
         ],
         [
-          "0.1u",
-          1,
-          "C0603",
-          "C1",
+          "HDR-F-2.54_1x15",
+          2,
+          "HDR-F-2.54_1X15",
+          "H1,H2",
           {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_US",
-            "Manufacturer Part": "",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "24eeb2ceca08480b92b847b6a310acda"
-          }
-        ],
-        [
-          "SMD1206B016TF",
-          1,
-          "F1206",
-          "F1",
-          {
-            "Contributor": "LCSC",
+            "Supplier Part": "C124408",
             "Supplier": "LCSC",
-            "Supplier Part": "C269110",
-            "Manufacturer": "Brightking(君耀电子)",
-            "Manufacturer Part": "SMD1206B016TF",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "SMD1206B016TF",
-            "puuid": "c74a5ddd0add4500b745ecf0d59ab737",
-            "uuid": "48862153cc7d4a3c94a6b021ab8e9101"
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x15",
+            "puuid": "bce4bcfcccfb42a296f7a392ab0b7199",
+            "uuid": "5a9ec2085ad6436d86701332d4451b76"
           }
         ],
         [
@@ -100,70 +80,6 @@
           }
         ],
         [
-          "BSS84AK,215",
-          1,
-          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
-          "Q1",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Manufacturer": "Nexperia(安世)",
-            "Manufacturer Part": "BSS84AK,215",
-            "Supplier Part": "C127273",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "BSS84AK,215",
-            "puuid": "2a819e02584e46aea9f04b619de61270",
-            "uuid": "02d3646832c3448e80e1fcfe698e9653"
-          }
-        ],
-        [
-          "120",
-          1,
-          "R0603",
-          "R2",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_0603_US",
-            "Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "4.7",
-          1,
-          "R0603",
-          "R3",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_0603_US",
-            "Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
-          }
-        ],
-        [
-          "1-2199298-2",
-          1,
-          "DIP-8_L10.2-W10.2-P2.54-LS7.6-BL",
-          "SK1",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C305904",
-            "Manufacturer": "TE Connectivity(泰科电子)",
-            "Manufacturer Part": "1-2199298-2",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "1-2199298-2",
-            "puuid": "3f6ef94e1963401e9ceec09213ee59e4",
-            "uuid": "cec5ab210a5148afb426506417eeb5b3"
-          }
-        ],
-        [
           "Button-6x6x6mm",
           3,
           "SW-TH_4P-L6.0-W6.0-P4.50-LS6.1",
@@ -196,11 +112,11 @@
           }
         ]
       ],
-      "updateTime": 1715236224,
+      "updateTime": 1715212670,
       "createTime": 1714527997,
       "histories": [],
       "created_at": "2024-05-01 11:46:37",
-      "updated_at": "2024-05-09 16:30:24"
+      "updated_at": "2024-05-09 09:57:50"
     },
     {
       "uuid": "f05cc0b5d0d099b4287c0983e45b6c22",
@@ -212,27 +128,22 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "c74a5ddd0add4500b745ecf0d59ab737": 1,
-        "398691f1f785460098bbe5ee6590333c": 2,
-        "a636b18807724d12b57aad37ab127677": 1,
-        "3f6ef94e1963401e9ceec09213ee59e4": 1,
-        "2a819e02584e46aea9f04b619de61270": 1,
-        "f8151fdc728a41ebbc304e11d39e5437": 1,
         "9f77654394344f25b3de138e0fe05ff6": 1,
         "b55714c828764ab8ba5599ca60f132ba": 1,
-        "adb9d1cbaa7f49818fd5f248baf30043": 3
+        "adb9d1cbaa7f49818fd5f248baf30043": 3,
+        "bce4bcfcccfb42a296f7a392ab0b7199": 2
       },
       "BOM": [],
-      "updateTime": 1715237816,
+      "updateTime": 1714531758,
       "createTime": 1714528848,
       "histories": [],
       "created_at": "2024-05-01 12:00:48",
-      "updated_at": "2024-05-09 16:56:56"
+      "updated_at": "2024-05-01 12:49:18"
     }
   ],
   "sort": [],
   "title": "servo-flipper",
   "foldername": "servo-flipper",
   "schfilename": "servo-flipper.json",
-  "schfilemtime": 1715236224732
+  "schfilemtime": 1715212670401
 }

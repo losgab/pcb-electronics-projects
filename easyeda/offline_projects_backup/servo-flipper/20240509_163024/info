@@ -4,7 +4,7 @@
   "name": "servo-flipper",
   "content": "",
   "created_at": "2024-05-01 11:46:36",
-  "updated_at": "2024-05-09 16:56:56",
+  "updated_at": "2024-05-09 16:30:24",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "b43544bf7af891b105987be0139df8d6",
       "thumb": "/images/thumb-default.png",
       "components": {
         "a68dc5e6a9944c46b7604648a43dcd65": 1,
@@ -217,17 +217,16 @@
         "a636b18807724d12b57aad37ab127677": 1,
         "3f6ef94e1963401e9ceec09213ee59e4": 1,
         "2a819e02584e46aea9f04b619de61270": 1,
-        "f8151fdc728a41ebbc304e11d39e5437": 1,
         "9f77654394344f25b3de138e0fe05ff6": 1,
         "b55714c828764ab8ba5599ca60f132ba": 1,
         "adb9d1cbaa7f49818fd5f248baf30043": 3
       },
       "BOM": [],
-      "updateTime": 1715237816,
+      "updateTime": 1715236163,
       "createTime": 1714528848,
       "histories": [],
       "created_at": "2024-05-01 12:00:48",
-      "updated_at": "2024-05-09 16:56:56"
+      "updated_at": "2024-05-09 16:29:23"
     }
   ],
   "sort": [],

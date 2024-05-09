@@ -28,5 +28,8 @@
   "f05cc0b5d0d099b4287c0983e45b6c22": "servo-flipper\\PCB_servo-flipper.json",
   "2f405014b1147b2de1c1529c7992d310": "stepper_control_board",
   "9cdd4579a0b2a48d4608db4659b00a50": "stepper_control_board\\stepper_control_board.json?Sheet_1",
-  "1e97e247eccaeb7c07d31355df5fbe73": "stepper_control_board\\PCB_stepper_control_board.json"
+  "1e97e247eccaeb7c07d31355df5fbe73": "stepper_control_board\\PCB_stepper_control_board.json",
+  "b2c5a6685ad5b620e8a9a67da4231fb1": "tiny_programer",
+  "37b50aed4822265ece0e28ca36da90d1": "tiny_programer\\tiny_programer.json?Sheet_1",
+  "9faab36cd7dc191674b83051b613425e": "tiny_programer\\PCB_tiny_programer.json"
 }

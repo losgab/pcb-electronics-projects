@@ -1,0 +1,93 @@
+{
+  "uuid": "b2c5a6685ad5b620e8a9a67da4231fb1",
+  "path": "Offline/tiny_programer",
+  "name": "tiny_programer",
+  "content": "",
+  "created_at": "2024-05-09 17:09:00",
+  "updated_at": "2024-05-09 17:09:02",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "37b50aed4822265ece0e28ca36da90d1",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "af45d58c75c95e68e14be4a4a8cf4f5d",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5a9ec2085ad6436d86701332d4451b76": 2,
+        "cec5ab210a5148afb426506417eeb5b3": 1,
+        "0e58c8a1876f47f19e9ea28aa2c8fd0c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-SMD_BD4.0-L4.3-W4.3-LS5.3-FD",
+          "C1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C445074",
+            "Manufacturer": "Nichicon(尼吉康)",
+            "Manufacturer Part": "UWT1C100MCL1GB",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "UWT1C100MCL1GB",
+            "puuid": "751adf5dc5934c85b0f6759a18fc4e5e",
+            "uuid": "0e58c8a1876f47f19e9ea28aa2c8fd0c"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x15",
+          2,
+          "HDR-F-2.54_1X15",
+          "H1,H2",
+          {
+            "Supplier Part": "C124408",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x15",
+            "puuid": "bce4bcfcccfb42a296f7a392ab0b7199",
+            "uuid": "5a9ec2085ad6436d86701332d4451b76"
+          }
+        ],
+        [
+          "1-2199298-2",
+          1,
+          "DIP-8_L10.2-W10.2-P2.54-LS7.6-BL",
+          "SK1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C305904",
+            "Manufacturer": "TE Connectivity(泰科电子)",
+            "Manufacturer Part": "1-2199298-2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1-2199298-2",
+            "puuid": "3f6ef94e1963401e9ceec09213ee59e4",
+            "uuid": "cec5ab210a5148afb426506417eeb5b3"
+          }
+        ]
+      ],
+      "updateTime": 1715238542,
+      "createTime": 1715238540,
+      "histories": [],
+      "created_at": "2024-05-09 17:09:00",
+      "updated_at": "2024-05-09 17:09:02"
+    }
+  ],
+  "sort": [],
+  "title": "tiny_programer",
+  "foldername": "tiny_programer",
+  "schfilename": "tiny_programer.json",
+  "schfilemtime": 1715238542206
+}
