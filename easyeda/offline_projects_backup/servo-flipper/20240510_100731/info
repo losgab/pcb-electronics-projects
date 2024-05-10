@@ -4,7 +4,7 @@
   "name": "servo-flipper",
   "content": "",
   "created_at": "2024-05-01 11:46:36",
-  "updated_at": "2024-05-10 10:09:34",
+  "updated_at": "2024-05-10 10:07:31",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "182c678a62a6359423f8692118b317cf",
       "thumb": "/images/thumb-default.png",
       "components": {
         "a68dc5e6a9944c46b7604648a43dcd65": 1,
@@ -164,7 +164,7 @@
           }
         ],
         [
-          "TS02-66-70-BK-100-LCR-D",
+          "Button-6x6x6mm",
           3,
           "SW-TH_4P-L6.0-W6.0-P4.50-LS6.1",
           "SW1,SW2,SW3",
@@ -196,11 +196,11 @@
           }
         ]
       ],
-      "updateTime": 1715299774,
+      "updateTime": 1715299651,
       "createTime": 1714527997,
       "histories": [],
       "created_at": "2024-05-01 11:46:37",
-      "updated_at": "2024-05-10 10:09:34"
+      "updated_at": "2024-05-10 10:07:31"
     },
     {
       "uuid": "f05cc0b5d0d099b4287c0983e45b6c22",
@@ -234,5 +234,5 @@
   "title": "servo-flipper",
   "foldername": "servo-flipper",
   "schfilename": "servo-flipper.json",
-  "schfilemtime": 1715299774994
+  "schfilemtime": 1715299651578
 }
