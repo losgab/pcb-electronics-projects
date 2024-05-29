@@ -1,0 +1,166 @@
+{
+  "uuid": "8a03968d0a86c7c8e8d361c2ef08119d",
+  "path": "Offline/USB2_ExpansionBoard",
+  "name": "USB2_ExpansionBoard",
+  "content": "",
+  "created_at": "2024-05-29 10:31:43",
+  "updated_at": "2024-05-29 23:35:01",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0fa3d2f679f0ec67887839596ac92e78",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ffadad71120841e4be235de9fcb747fe": 4,
+        "9084ea9dd77a44adaddfd7d11bb1f07b": 1,
+        "1e9236ec2b2c469baf1d1e79692d4c02": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "c9bcd71204854866a129a5264511c0b4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1u",
+          1,
+          "C0603",
+          "C2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "S2B-PH-SM4-TB(LF)(SN)",
+          1,
+          "CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C295747",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S2B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S2B-PH-SM4-TB(LF)(SN)",
+            "puuid": "a54eec112d4e47d8b8028fdda8c2c5b8",
+            "uuid": "c9bcd71204854866a129a5264511c0b4"
+          }
+        ],
+        [
+          "CD4052BMT",
+          1,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1848098",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "CD4052BMT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CD4052BMT",
+            "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
+            "uuid": "9084ea9dd77a44adaddfd7d11bb1f07b"
+          }
+        ],
+        [
+          "S5B-PH-SM4-TB(LF)(SN)",
+          1,
+          "CONN-SMD_S5B-PH-SM4-TB-LF-SN",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265104",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S5B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S5B-PH-SM4-TB(LF)(SN)",
+            "puuid": "de1efe0889ae45aea1c048e46d16f89f",
+            "uuid": "1e9236ec2b2c469baf1d1e79692d4c02"
+          }
+        ],
+        [
+          "CU01SAH0S00",
+          4,
+          "USB-A-TH_CU01SAH0S00",
+          "USB1,USB2,USB3,USB4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C918634",
+            "Manufacturer": "Cvilux(瀚荃)",
+            "Manufacturer Part": "CU01SAH0S00",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CU01SAH0S00",
+            "puuid": "60035dd9cef14a8eb68a4af4e5297a42",
+            "uuid": "ffadad71120841e4be235de9fcb747fe"
+          }
+        ]
+      ],
+      "updateTime": 1716955095,
+      "createTime": 1716942703,
+      "histories": [],
+      "created_at": "2024-05-29 10:31:43",
+      "updated_at": "2024-05-29 13:58:15"
+    },
+    {
+      "uuid": "3ee004ccc8842ca44c60f46ce63ca76d",
+      "puuid": "8a03968d0a86c7c8e8d361c2ef08119d",
+      "title": "PCB_USB2_ExpansionBoard",
+      "filename": "PCB_USB2_ExpansionBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "a54eec112d4e47d8b8028fdda8c2c5b8": 1,
+        "5cafa9ae5a9e4b2ab529c9f08b47eb94": 1,
+        "de1efe0889ae45aea1c048e46d16f89f": 1,
+        "60035dd9cef14a8eb68a4af4e5297a42": 4
+      },
+      "BOM": [],
+      "updateTime": 1716989701,
+      "createTime": 1716951058,
+      "histories": [],
+      "created_at": "2024-05-29 12:50:58",
+      "updated_at": "2024-05-29 23:35:01"
+    }
+  ],
+  "sort": [],
+  "title": "USB2_ExpansionBoard",
+  "foldername": "USB2_ExpansionBoard",
+  "schfilename": "USB2_ExpansionBoard.json",
+  "schfilemtime": 1716955095912
+}
