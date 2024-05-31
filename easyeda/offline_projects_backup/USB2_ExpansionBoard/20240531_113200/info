@@ -4,7 +4,7 @@
   "name": "USB2_ExpansionBoard",
   "content": "",
   "created_at": "2024-05-29 10:31:43",
-  "updated_at": "2024-05-31 13:25:01",
+  "updated_at": "2024-05-31 11:32:00",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "f0a5051d8e0dd253738525e0860de211",
       "thumb": "/images/thumb-default.png",
       "components": {
         "ffadad71120841e4be235de9fcb747fe": 4,
@@ -147,15 +147,15 @@
         "f8151fdc728a41ebbc304e11d39e5437": 2,
         "a54eec112d4e47d8b8028fdda8c2c5b8": 1,
         "5cafa9ae5a9e4b2ab529c9f08b47eb94": 1,
-        "de1efe0889ae45aea1c048e46d16f89f": 1,
-        "60035dd9cef14a8eb68a4af4e5297a42": 4
+        "60035dd9cef14a8eb68a4af4e5297a42": 4,
+        "de1efe0889ae45aea1c048e46d16f89f": 1
       },
       "BOM": [],
-      "updateTime": 1717125901,
+      "updateTime": 1717119024,
       "createTime": 1716951058,
       "histories": [],
       "created_at": "2024-05-29 12:50:58",
-      "updated_at": "2024-05-31 13:25:01"
+      "updated_at": "2024-05-31 11:30:24"
     }
   ],
   "sort": [],

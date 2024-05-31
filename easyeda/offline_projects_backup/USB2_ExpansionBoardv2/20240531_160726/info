@@ -1,25 +1,25 @@
 {
-  "uuid": "8a03968d0a86c7c8e8d361c2ef08119d",
-  "path": "Offline/USB2_ExpansionBoard",
-  "name": "USB2_ExpansionBoard",
+  "uuid": "18bbf1dffc33c774ca18716cd9ef02e3",
+  "path": "Offline/USB2_ExpansionBoardv2",
+  "name": "USB2_ExpansionBoardv2",
   "content": "",
-  "created_at": "2024-05-29 10:31:43",
-  "updated_at": "2024-05-31 13:25:01",
+  "created_at": "2024-05-31 15:21:04",
+  "updated_at": "2024-05-31 16:07:26",
   "stick": "",
   "documents": [
     {
-      "uuid": "0fa3d2f679f0ec67887839596ac92e78",
+      "uuid": "9a8316059a313b262498fc70cdee0d29",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "ffadad71120841e4be235de9fcb747fe": 4,
-        "9084ea9dd77a44adaddfd7d11bb1f07b": 1,
-        "1e9236ec2b2c469baf1d1e79692d4c02": 1,
+        "c749d41895de4e1c9c8452beacf03b37": 1,
+        "95f05029d13f4f6da0077da9433e9baf": 1,
+        "ffadad71120841e4be235de9fcb747fe": 8,
         "24eeb2ceca08480b92b847b6a310acda": 2,
-        "c9bcd71204854866a129a5264511c0b4": 1
+        "e2fd37fcab1745a6a4526a14cc0d75d9": 1
       },
       "BOM": [
         [
@@ -60,61 +60,43 @@
           }
         ],
         [
-          "S2B-PH-SM4-TB(LF)(SN)",
+          "S6B-PH-SM4-TB(LF)(SN)",
           1,
-          "CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN",
-          "CN1",
+          "CONN-SMD_S6B-PH-SM4-TB-LF-SN",
+          "P1",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C295747",
+            "Supplier Part": "C265405",
             "Manufacturer": "JST",
-            "Manufacturer Part": "S2B-PH-SM4-TB(LF)(SN)",
+            "Manufacturer Part": "S6B-PH-SM4-TB(LF)(SN)",
             "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "S2B-PH-SM4-TB(LF)(SN)",
-            "puuid": "a54eec112d4e47d8b8028fdda8c2c5b8",
-            "uuid": "c9bcd71204854866a129a5264511c0b4"
+            "spiceSymbolName": "S6B-PH-SM4-TB(LF)(SN)",
+            "puuid": "578b5d9ab72b4a809baf3813e242966c",
+            "uuid": "e2fd37fcab1745a6a4526a14cc0d75d9"
           }
         ],
         [
-          "CD4052BMT",
+          "SN74CBT3251DR",
           1,
           "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
           "U1",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C1848098",
+            "Supplier Part": "C2653296",
             "Manufacturer": "TI(德州仪器)",
-            "Manufacturer Part": "CD4052BMT",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "CD4052BMT",
+            "Manufacturer Part": "SN74CBT3251DR",
+            "spiceSymbolName": "SN74CBT3251DR",
             "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
-            "uuid": "9084ea9dd77a44adaddfd7d11bb1f07b"
-          }
-        ],
-        [
-          "S5B-PH-SM4-TB(LF)(SN)",
-          1,
-          "CONN-SMD_S5B-PH-SM4-TB-LF-SN",
-          "U2",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C265104",
-            "Manufacturer": "JST",
-            "Manufacturer Part": "S5B-PH-SM4-TB(LF)(SN)",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "S5B-PH-SM4-TB(LF)(SN)",
-            "puuid": "de1efe0889ae45aea1c048e46d16f89f",
-            "uuid": "1e9236ec2b2c469baf1d1e79692d4c02"
+            "uuid": "c749d41895de4e1c9c8452beacf03b37"
           }
         ],
         [
           "CU01SAH0S00",
-          4,
+          8,
           "USB-A-TH_CU01SAH0S00",
-          "USB1,USB2,USB3,USB4",
+          "USB1,USB2,USB3,USB4,USB5,USB6,USB7,USB8",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -126,41 +108,58 @@
             "puuid": "60035dd9cef14a8eb68a4af4e5297a42",
             "uuid": "ffadad71120841e4be235de9fcb747fe"
           }
+        ],
+        [
+          "MOLEX MINI-FIT JR_2P_2R",
+          1,
+          "MOLEX MINI-FIT JR_2P_2R-90",
+          "X1",
+          {
+            "Manufacturer": "Molex",
+            "Manufacturer Part": "0026013114",
+            "Supplier": "Mouser",
+            "Supplier Part": "538-26-01-3114",
+            "link": "https://www.mouser.ch/datasheet/2/276/0026013114_PCB_HEADERS-693979.pdf",
+            "Contributor": "",
+            "spiceSymbolName": "MOLEX MINI-FIT JR_2P_2R",
+            "puuid": "9a1e5ead25584dc6bf56aef772d9498c",
+            "uuid": "95f05029d13f4f6da0077da9433e9baf"
+          }
         ]
       ],
-      "updateTime": 1717119120,
-      "createTime": 1716942703,
+      "updateTime": 1717135029,
+      "createTime": 1717132864,
       "histories": [],
-      "created_at": "2024-05-29 10:31:43",
-      "updated_at": "2024-05-31 11:32:00"
+      "created_at": "2024-05-31 15:21:04",
+      "updated_at": "2024-05-31 15:57:09"
     },
     {
-      "uuid": "3ee004ccc8842ca44c60f46ce63ca76d",
-      "puuid": "8a03968d0a86c7c8e8d361c2ef08119d",
-      "title": "PCB_USB2_ExpansionBoard",
-      "filename": "PCB_USB2_ExpansionBoard.json",
+      "uuid": "cd87aa9bdcfee8c38f9c940ce1f21bdf",
+      "puuid": "18bbf1dffc33c774ca18716cd9ef02e3",
+      "title": "PCB_USB2_ExpansionBoardv2",
+      "filename": "PCB_USB2_ExpansionBoardv2.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
         "f8151fdc728a41ebbc304e11d39e5437": 2,
-        "a54eec112d4e47d8b8028fdda8c2c5b8": 1,
-        "5cafa9ae5a9e4b2ab529c9f08b47eb94": 1,
-        "de1efe0889ae45aea1c048e46d16f89f": 1,
-        "60035dd9cef14a8eb68a4af4e5297a42": 4
+        "578b5d9ab72b4a809baf3813e242966c": 1,
+        "60035dd9cef14a8eb68a4af4e5297a42": 8,
+        "9a1e5ead25584dc6bf56aef772d9498c": 1,
+        "5cafa9ae5a9e4b2ab529c9f08b47eb94": 1
       },
       "BOM": [],
-      "updateTime": 1717125901,
-      "createTime": 1716951058,
+      "updateTime": 1717135646,
+      "createTime": 1717133791,
       "histories": [],
-      "created_at": "2024-05-29 12:50:58",
-      "updated_at": "2024-05-31 13:25:01"
+      "created_at": "2024-05-31 15:36:31",
+      "updated_at": "2024-05-31 16:07:26"
     }
   ],
   "sort": [],
-  "title": "USB2_ExpansionBoard",
-  "foldername": "USB2_ExpansionBoard",
-  "schfilename": "USB2_ExpansionBoard.json",
-  "schfilemtime": 1717119120245
+  "title": "USB2_ExpansionBoardv2",
+  "foldername": "USB2_ExpansionBoardv2",
+  "schfilename": "USB2_ExpansionBoardv2.json",
+  "schfilemtime": 1717135029019
 }
