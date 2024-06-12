@@ -4,7 +4,7 @@
   "name": "micrometer_parallelism",
   "content": "",
   "created_at": "2024-05-31 13:53:47",
-  "updated_at": "2024-06-12 12:37:53",
+  "updated_at": "2024-06-12 12:37:25",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "36d75e2f96e385e2a97610e9429a28dd",
       "thumb": "/images/thumb-default.png",
       "components": {
         "64752082718c4c8c9de1f63fde7f74df": 1,
@@ -20,7 +20,7 @@
         "24eeb2ceca08480b92b847b6a310acda": 16,
         "e2fd37fcab1745a6a4526a14cc0d75d9": 2,
         "c6652b96eb0d4528a60082e8b5dc8713": 1,
-        "95f05029d13f4f6da0077da9433e9baf": 2
+        "95f05029d13f4f6da0077da9433e9baf": 1
       },
       "BOM": [
         [
@@ -116,9 +116,9 @@
         ],
         [
           "MOLEX MINI-FIT JR_2P_2R",
-          2,
+          1,
           "MOLEX MINI-FIT JR_2P_2R-90",
-          "X1,X2",
+          "X1",
           {
             "Manufacturer": "Molex",
             "Manufacturer Part": "0026013114",
@@ -132,16 +132,16 @@
           }
         ]
       ],
-      "updateTime": 1718159873,
+      "updateTime": 1718159845,
       "createTime": 1717127627,
       "histories": [],
       "created_at": "2024-05-31 13:53:47",
-      "updated_at": "2024-06-12 12:37:53"
+      "updated_at": "2024-06-12 12:37:25"
     }
   ],
   "sort": [],
   "title": "micrometer_parallelism",
   "foldername": "micrometer_parallelism",
   "schfilename": "micrometer_parallelism.json",
-  "schfilemtime": 1718159873351
+  "schfilemtime": 1718159845760
 }
