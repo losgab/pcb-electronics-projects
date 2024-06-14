@@ -1,0 +1,1002 @@
+{
+  "uuid": "9b169f678745db4bd104493ab9a927fb",
+  "path": "Offline/micrometer_parallelism",
+  "name": "micrometer_parallelism",
+  "content": "",
+  "created_at": "2024-05-31 13:53:47",
+  "updated_at": "2024-06-14 17:30:56",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a0c5c77abe45a79082ae1d4249f6972c",
+      "title": "Controller",
+      "description": "",
+      "docType": "1",
+      "master": "35163f09cac9f2341f28c4e66bea274f",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f0236a8022f64f3da5d82a1650fe24d3": 16,
+        "24eeb2ceca08480b92b847b6a310acda": 16,
+        "e2fd37fcab1745a6a4526a14cc0d75d9": 2,
+        "c6652b96eb0d4528a60082e8b5dc8713": 1,
+        "22287dfc4b2548ea85d1b0564884ff36": 2,
+        "02d3646832c3448e80e1fcfe698e9653": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          16,
+          "C0603",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "ESP32-S3-Pico-Waveshare-Symbol",
+          1,
+          "ESP32-S3-PICO",
+          "J1",
+          {
+            "Supplier Part": "ESP32-S3-Pico",
+            "Supplier": "LCSC",
+            "Manufacturer": "Waveshare",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "Gabriel Thien",
+            "spiceSymbolName": "ESP32-S3-Pico-Waveshare-Symbol",
+            "puuid": "42b0c8bb8d484f04a127105ab7798018",
+            "uuid": "c6652b96eb0d4528a60082e8b5dc8713"
+          }
+        ],
+        [
+          "COM-16347",
+          16,
+          "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843785",
+            "Manufacturer": "XINGLIGHT(成兴光)",
+            "Manufacturer Part": "XL-5050RGBC-WS2812B",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL-5050RGBC-WS2812B",
+            "puuid": "b55714c828764ab8ba5599ca60f132ba",
+            "uuid": "f0236a8022f64f3da5d82a1650fe24d3"
+          }
+        ],
+        [
+          "S4B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S4B-PH-SM4-TB-LF-SN",
+          "LED_SWITCH,POWER",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265102",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S4B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S4B-PH-SM4-TB(LF)(SN)",
+            "puuid": "52a4674d60164c8398c0e500e9bc1b5e",
+            "uuid": "22287dfc4b2548ea85d1b0564884ff36"
+          }
+        ],
+        [
+          "S6B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S6B-PH-SM4-TB-LF-SN",
+          "MUX_UART1,MUX_UART2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265405",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S6B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S6B-PH-SM4-TB(LF)(SN)",
+            "puuid": "578b5d9ab72b4a809baf3813e242966c",
+            "uuid": "e2fd37fcab1745a6a4526a14cc0d75d9"
+          }
+        ],
+        [
+          "BSS84AK,215",
+          1,
+          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "BSS84AK,215",
+            "Supplier Part": "C127273",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BSS84AK,215",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "02d3646832c3448e80e1fcfe698e9653"
+          }
+        ],
+        [
+          "4.7",
+          1,
+          "R0603",
+          "R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R0603",
+          "R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10u 50V",
+          1,
+          "C0603",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220nF",
+          1,
+          "C0603",
+          "C18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220pF",
+          2,
+          "C0603",
+          "C19,C20",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1-1571986-5",
+          1,
+          "SW-TH_1-1571986-5",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92486",
+            "Manufacturer": "TE Connectivity(泰科电子)",
+            "Manufacturer Part": "1-1571986-5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1-1571986-5",
+            "puuid": "0fef3807a2eb4fa98652e085a2086959",
+            "uuid": "f03ddb99f1f8469892c4c504dc83ab25"
+          }
+        ],
+        [
+          "BD6231F-E2",
+          1,
+          "SOP-8_L5.0-W4.4-P1.27-LS6.2-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C253180",
+            "Manufacturer": "ROHM(罗姆)",
+            "Manufacturer Part": "BD6231F-E2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BD6231F-E2",
+            "puuid": "81b6108d803342bbb33295e02cc40afc",
+            "uuid": "17e0009089e044389dc3f17f7d6c1cf7"
+          }
+        ],
+        [
+          "POWER-JACK",
+          1,
+          "DC-IN-TH_POWER-JACK",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900001795",
+            "Manufacturer": "索峰",
+            "Manufacturer Part": "POWER-JACK",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900001795&%26type=1&ref=editor",
+            "spiceSymbolName": "POWER-JACK",
+            "puuid": "c309f5d2eb8e40b796181119d447a76e",
+            "uuid": "64752082718c4c8c9de1f63fde7f74df"
+          }
+        ],
+        [
+          "S3B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S3B-PH-SM4-TB-LF-SN",
+          "U3,U5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265101",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S3B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S3B-PH-SM4-TB(LF)(SN)",
+            "puuid": "4f48be79cff0425faf9dacb3d75cf40f",
+            "uuid": "38b473b969e84fea981fcbd4577061d0"
+          }
+        ],
+        [
+          "00401-UCAF001-X",
+          1,
+          "TYPE-C-SMD_TYPE-C-6P_USB4125-GF-A-0190",
+          "USB1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3148196",
+            "Manufacturer": "MINTRON(明硕)",
+            "Manufacturer Part": "00401-UCAF001-X",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "00401-UCAF001-X",
+            "puuid": "a636b18807724d12b57aad37ab127677",
+            "uuid": "ae89dce34dea4c73b75e833dea09145d"
+          }
+        ],
+        [
+          "MOLEX MINI-FIT JR_2P_2R",
+          2,
+          "MOLEX MINI-FIT JR_2P_2R-90",
+          "X1,X2",
+          {
+            "Manufacturer": "Molex",
+            "Manufacturer Part": "0026013114",
+            "Supplier": "Mouser",
+            "Supplier Part": "538-26-01-3114",
+            "link": "https://www.mouser.ch/datasheet/2/276/0026013114_PCB_HEADERS-693979.pdf",
+            "Contributor": "",
+            "spiceSymbolName": "MOLEX MINI-FIT JR_2P_2R",
+            "puuid": "9a1e5ead25584dc6bf56aef772d9498c",
+            "uuid": "95f05029d13f4f6da0077da9433e9baf"
+          }
+        ]
+      ],
+      "updateTime": 1718350256,
+      "createTime": 1717127627,
+      "histories": [],
+      "created_at": "2024-05-31 13:53:47",
+      "updated_at": "2024-06-14 17:30:56"
+    },
+    {
+      "uuid": "3f4601a495877c7209c2e03883008f80",
+      "title": "Power + Magnet Driver",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "64752082718c4c8c9de1f63fde7f74df": 1,
+        "95f05029d13f4f6da0077da9433e9baf": 2,
+        "17e0009089e044389dc3f17f7d6c1cf7": 1,
+        "38b473b969e84fea981fcbd4577061d0": 2,
+        "24eeb2ceca08480b92b847b6a310acda": 4,
+        "bb009484ef804a24ac5d18c54b249586": 2,
+        "ae89dce34dea4c73b75e833dea09145d": 1,
+        "f03ddb99f1f8469892c4c504dc83ab25": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          16,
+          "C0603",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "ESP32-S3-Pico-Waveshare-Symbol",
+          1,
+          "ESP32-S3-PICO",
+          "J1",
+          {
+            "Supplier Part": "ESP32-S3-Pico",
+            "Supplier": "LCSC",
+            "Manufacturer": "Waveshare",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "Gabriel Thien",
+            "spiceSymbolName": "ESP32-S3-Pico-Waveshare-Symbol",
+            "puuid": "42b0c8bb8d484f04a127105ab7798018",
+            "uuid": "c6652b96eb0d4528a60082e8b5dc8713"
+          }
+        ],
+        [
+          "COM-16347",
+          16,
+          "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843785",
+            "Manufacturer": "XINGLIGHT(成兴光)",
+            "Manufacturer Part": "XL-5050RGBC-WS2812B",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL-5050RGBC-WS2812B",
+            "puuid": "b55714c828764ab8ba5599ca60f132ba",
+            "uuid": "f0236a8022f64f3da5d82a1650fe24d3"
+          }
+        ],
+        [
+          "S6B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S6B-PH-SM4-TB-LF-SN",
+          "P1,P2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265405",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S6B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S6B-PH-SM4-TB(LF)(SN)",
+            "puuid": "578b5d9ab72b4a809baf3813e242966c",
+            "uuid": "e2fd37fcab1745a6a4526a14cc0d75d9"
+          }
+        ],
+        [
+          "S3B-PH-SM4-TB(LF)(SN)",
+          1,
+          "CONN-SMD_S3B-PH-SM4-TB-LF-SN",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265101",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S3B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S3B-PH-SM4-TB(LF)(SN)",
+            "puuid": "4f48be79cff0425faf9dacb3d75cf40f",
+            "uuid": "38b473b969e84fea981fcbd4577061d0"
+          }
+        ],
+        [
+          "POWER-JACK",
+          1,
+          "DC-IN-TH_POWER-JACK",
+          "U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900001795",
+            "Manufacturer": "索峰",
+            "Manufacturer Part": "POWER-JACK",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900001795&%26type=1&ref=editor",
+            "spiceSymbolName": "POWER-JACK",
+            "puuid": "c309f5d2eb8e40b796181119d447a76e",
+            "uuid": "64752082718c4c8c9de1f63fde7f74df"
+          }
+        ],
+        [
+          "10u 50V",
+          1,
+          "C0603",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220nF",
+          1,
+          "C0603",
+          "C18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220pF",
+          2,
+          "C0603",
+          "C19,C20",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1-1571986-5",
+          1,
+          "SW-TH_1-1571986-5",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92486",
+            "Manufacturer": "TE Connectivity(泰科电子)",
+            "Manufacturer Part": "1-1571986-5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1-1571986-5",
+            "puuid": "0fef3807a2eb4fa98652e085a2086959",
+            "uuid": "f03ddb99f1f8469892c4c504dc83ab25"
+          }
+        ],
+        [
+          "BD6231F-E2",
+          1,
+          "SOP-8_L5.0-W4.4-P1.27-LS6.2-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C253180",
+            "Manufacturer": "ROHM(罗姆)",
+            "Manufacturer Part": "BD6231F-E2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BD6231F-E2",
+            "puuid": "81b6108d803342bbb33295e02cc40afc",
+            "uuid": "17e0009089e044389dc3f17f7d6c1cf7"
+          }
+        ],
+        [
+          "POWER-JACK",
+          1,
+          "DC-IN-TH_POWER-JACK",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900001795",
+            "Manufacturer": "索峰",
+            "Manufacturer Part": "POWER-JACK",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900001795&%26type=1&ref=editor",
+            "spiceSymbolName": "POWER-JACK",
+            "puuid": "c309f5d2eb8e40b796181119d447a76e",
+            "uuid": "64752082718c4c8c9de1f63fde7f74df"
+          }
+        ],
+        [
+          "S3B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S3B-PH-SM4-TB-LF-SN",
+          "U3,U5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265101",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S3B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S3B-PH-SM4-TB(LF)(SN)",
+            "puuid": "4f48be79cff0425faf9dacb3d75cf40f",
+            "uuid": "38b473b969e84fea981fcbd4577061d0"
+          }
+        ],
+        [
+          "00401-UCAF001-X",
+          1,
+          "TYPE-C-SMD_TYPE-C-6P_USB4125-GF-A-0190",
+          "USB1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3148196",
+            "Manufacturer": "MINTRON(明硕)",
+            "Manufacturer Part": "00401-UCAF001-X",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "00401-UCAF001-X",
+            "puuid": "a636b18807724d12b57aad37ab127677",
+            "uuid": "ae89dce34dea4c73b75e833dea09145d"
+          }
+        ],
+        [
+          "MOLEX MINI-FIT JR_2P_2R",
+          2,
+          "MOLEX MINI-FIT JR_2P_2R-90",
+          "X1,X2",
+          {
+            "Manufacturer": "Molex",
+            "Manufacturer Part": "0026013114",
+            "Supplier": "Mouser",
+            "Supplier Part": "538-26-01-3114",
+            "link": "https://www.mouser.ch/datasheet/2/276/0026013114_PCB_HEADERS-693979.pdf",
+            "Contributor": "",
+            "spiceSymbolName": "MOLEX MINI-FIT JR_2P_2R",
+            "puuid": "9a1e5ead25584dc6bf56aef772d9498c",
+            "uuid": "95f05029d13f4f6da0077da9433e9baf"
+          }
+        ]
+      ],
+      "updateTime": 1718345188,
+      "createTime": 1718342266,
+      "histories": [],
+      "created_at": "2024-06-14 15:17:46",
+      "updated_at": "2024-06-14 16:06:28"
+    },
+    {
+      "uuid": "23c55e53c92277cd03de8ae2c02f9d2a",
+      "puuid": "9b169f678745db4bd104493ab9a927fb",
+      "title": "PCB_Controller",
+      "filename": "PCB_Controller.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "81b6108d803342bbb33295e02cc40afc": 1,
+        "a636b18807724d12b57aad37ab127677": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 20,
+        "2a819e02584e46aea9f04b619de61270": 1,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "0fef3807a2eb4fa98652e085a2086959": 1,
+        "c309f5d2eb8e40b796181119d447a76e": 1,
+        "4f48be79cff0425faf9dacb3d75cf40f": 2,
+        "52a4674d60164c8398c0e500e9bc1b5e": 2,
+        "42b0c8bb8d484f04a127105ab7798018": 1,
+        "b55714c828764ab8ba5599ca60f132ba": 16,
+        "578b5d9ab72b4a809baf3813e242966c": 2,
+        "9a1e5ead25584dc6bf56aef772d9498c": 2
+      },
+      "BOM": [],
+      "updateTime": 1718350084,
+      "createTime": 1718327811,
+      "histories": [],
+      "created_at": "2024-06-14 11:16:51",
+      "updated_at": "2024-06-14 17:28:04"
+    },
+    {
+      "uuid": "fbaeead312083465576a608658db21fc",
+      "puuid": "9b169f678745db4bd104493ab9a927fb",
+      "title": "PCB_Power",
+      "filename": "PCB_Power.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 20,
+        "42b0c8bb8d484f04a127105ab7798018": 1,
+        "b55714c828764ab8ba5599ca60f132ba": 16,
+        "578b5d9ab72b4a809baf3813e242966c": 2,
+        "2a819e02584e46aea9f04b619de61270": 1,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "0fef3807a2eb4fa98652e085a2086959": 1,
+        "81b6108d803342bbb33295e02cc40afc": 1,
+        "c309f5d2eb8e40b796181119d447a76e": 1,
+        "4f48be79cff0425faf9dacb3d75cf40f": 2,
+        "52a4674d60164c8398c0e500e9bc1b5e": 2,
+        "a636b18807724d12b57aad37ab127677": 1,
+        "9a1e5ead25584dc6bf56aef772d9498c": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          16,
+          "C0603",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "ESP32-S3-Pico-Waveshare-Symbol",
+          1,
+          "ESP32-S3-PICO",
+          "J1",
+          {
+            "Supplier Part": "ESP32-S3-Pico",
+            "Supplier": "LCSC",
+            "Manufacturer": "Waveshare",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "Gabriel Thien",
+            "spiceSymbolName": "ESP32-S3-Pico-Waveshare-Symbol",
+            "puuid": "42b0c8bb8d484f04a127105ab7798018",
+            "uuid": "c6652b96eb0d4528a60082e8b5dc8713"
+          }
+        ],
+        [
+          "COM-16347",
+          16,
+          "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843785",
+            "Manufacturer": "XINGLIGHT(成兴光)",
+            "Manufacturer Part": "XL-5050RGBC-WS2812B",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL-5050RGBC-WS2812B",
+            "puuid": "b55714c828764ab8ba5599ca60f132ba",
+            "uuid": "f0236a8022f64f3da5d82a1650fe24d3"
+          }
+        ],
+        [
+          "S6B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S6B-PH-SM4-TB-LF-SN",
+          "P1,P2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265405",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S6B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S6B-PH-SM4-TB(LF)(SN)",
+            "puuid": "578b5d9ab72b4a809baf3813e242966c",
+            "uuid": "e2fd37fcab1745a6a4526a14cc0d75d9"
+          }
+        ],
+        [
+          "BSS84AK,215",
+          1,
+          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "BSS84AK,215",
+            "Supplier Part": "C127273",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BSS84AK,215",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "02d3646832c3448e80e1fcfe698e9653"
+          }
+        ],
+        [
+          "4.7",
+          1,
+          "R0603",
+          "R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R0603",
+          "R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "S4B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S4B-PH-SM4-TB-LF-SN",
+          "U6,U7",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265102",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S4B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S4B-PH-SM4-TB(LF)(SN)",
+            "puuid": "52a4674d60164c8398c0e500e9bc1b5e",
+            "uuid": "22287dfc4b2548ea85d1b0564884ff36"
+          }
+        ],
+        [
+          "10u 50V",
+          1,
+          "C0603",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220nF",
+          1,
+          "C0603",
+          "C18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220pF",
+          2,
+          "C0603",
+          "C19,C20",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1-1571986-5",
+          1,
+          "SW-TH_1-1571986-5",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92486",
+            "Manufacturer": "TE Connectivity(泰科电子)",
+            "Manufacturer Part": "1-1571986-5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1-1571986-5",
+            "puuid": "0fef3807a2eb4fa98652e085a2086959",
+            "uuid": "f03ddb99f1f8469892c4c504dc83ab25"
+          }
+        ],
+        [
+          "BD6231F-E2",
+          1,
+          "SOP-8_L5.0-W4.4-P1.27-LS6.2-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C253180",
+            "Manufacturer": "ROHM(罗姆)",
+            "Manufacturer Part": "BD6231F-E2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BD6231F-E2",
+            "puuid": "81b6108d803342bbb33295e02cc40afc",
+            "uuid": "17e0009089e044389dc3f17f7d6c1cf7"
+          }
+        ],
+        [
+          "POWER-JACK",
+          1,
+          "DC-IN-TH_POWER-JACK",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900001795",
+            "Manufacturer": "索峰",
+            "Manufacturer Part": "POWER-JACK",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900001795&%26type=1&ref=editor",
+            "spiceSymbolName": "POWER-JACK",
+            "puuid": "c309f5d2eb8e40b796181119d447a76e",
+            "uuid": "64752082718c4c8c9de1f63fde7f74df"
+          }
+        ],
+        [
+          "S3B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S3B-PH-SM4-TB-LF-SN",
+          "U3,U5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265101",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S3B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S3B-PH-SM4-TB(LF)(SN)",
+            "puuid": "4f48be79cff0425faf9dacb3d75cf40f",
+            "uuid": "38b473b969e84fea981fcbd4577061d0"
+          }
+        ],
+        [
+          "00401-UCAF001-X",
+          1,
+          "TYPE-C-SMD_TYPE-C-6P_USB4125-GF-A-0190",
+          "USB1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3148196",
+            "Manufacturer": "MINTRON(明硕)",
+            "Manufacturer Part": "00401-UCAF001-X",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "00401-UCAF001-X",
+            "puuid": "a636b18807724d12b57aad37ab127677",
+            "uuid": "ae89dce34dea4c73b75e833dea09145d"
+          }
+        ],
+        [
+          "MOLEX MINI-FIT JR_2P_2R",
+          2,
+          "MOLEX MINI-FIT JR_2P_2R-90",
+          "X1,X2",
+          {
+            "Manufacturer": "Molex",
+            "Manufacturer Part": "0026013114",
+            "Supplier": "Mouser",
+            "Supplier Part": "538-26-01-3114",
+            "link": "https://www.mouser.ch/datasheet/2/276/0026013114_PCB_HEADERS-693979.pdf",
+            "Contributor": "",
+            "spiceSymbolName": "MOLEX MINI-FIT JR_2P_2R",
+            "puuid": "9a1e5ead25584dc6bf56aef772d9498c",
+            "uuid": "95f05029d13f4f6da0077da9433e9baf"
+          }
+        ]
+      ],
+      "updateTime": 1718350117,
+      "createTime": 1718350051,
+      "histories": [],
+      "created_at": "2024-06-14 17:27:31",
+      "updated_at": "2024-06-14 17:28:37"
+    }
+  ],
+  "sort": [
+    "a0c5c77abe45a79082ae1d4249f6972c",
+    "3f4601a495877c7209c2e03883008f80"
+  ],
+  "title": "micrometer_parallelism",
+  "foldername": "micrometer_parallelism",
+  "schfilename": "micrometer_parallelism.json",
+  "schfilemtime": 1718350256956
+}
