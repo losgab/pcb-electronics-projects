@@ -4,7 +4,7 @@
   "name": "power_driver_parallelism",
   "content": "",
   "created_at": "2024-06-14 17:38:43",
-  "updated_at": "2024-06-19 11:58:59",
+  "updated_at": "2024-06-19 11:30:13",
   "stick": "",
   "documents": [
     {
@@ -17,7 +17,7 @@
       "components": {
         "22287dfc4b2548ea85d1b0564884ff36": 1,
         "f03ddb99f1f8469892c4c504dc83ab25": 1,
-        "24eeb2ceca08480b92b847b6a310acda": 8,
+        "24eeb2ceca08480b92b847b6a310acda": 4,
         "ae89dce34dea4c73b75e833dea09145d": 1,
         "bb009484ef804a24ac5d18c54b249586": 2,
         "38b473b969e84fea981fcbd4577061d0": 1,
@@ -25,9 +25,7 @@
         "95f05029d13f4f6da0077da9433e9baf": 2,
         "64752082718c4c8c9de1f63fde7f74df": 1,
         "a21f47c4b9a9448d8dcbe20f25964e9d": 1,
-        "ae739fe658f641f3a0e6ec9c243a2296": 1,
-        "b0248eb51e084227889f2cb84eab79c4": 1,
-        "6df43d573daf48f6a9675cbea13cc400": 1
+        "ae739fe658f641f3a0e6ec9c243a2296": 1
       },
       "BOM": [
         [
@@ -36,64 +34,6 @@
           "Package",
           "Components",
           "CustomPara"
-        ],
-        [
-          "0.1uF",
-          2,
-          "C0603",
-          "C1,C2",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_US",
-            "Manufacturer Part": "",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "24eeb2ceca08480b92b847b6a310acda"
-          }
-        ],
-        [
-          "0.33uF",
-          1,
-          "C0603",
-          "C3",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_US",
-            "Manufacturer Part": "",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "24eeb2ceca08480b92b847b6a310acda"
-          }
-        ],
-        [
-          "470uF",
-          1,
-          "C0603",
-          "C4",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_US",
-            "Manufacturer Part": "",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "24eeb2ceca08480b92b847b6a310acda"
-          }
-        ],
-        [
-          "EEEHD1V182AM 1800uF",
-          1,
-          "CAP_EEEHD1V182AM",
-          "C5",
-          {
-            "Contributor": "Gabriel Thien",
-            "spiceSymbolName": "EEEHD1V182AM",
-            "Manufacturer Part": "",
-            "puuid": "a5985274c50a4b13bd1cd190d2e4c24d",
-            "uuid": "6df43d573daf48f6a9675cbea13cc400"
-          }
         ],
         [
           "10u 50V",
@@ -170,21 +110,6 @@
             "Manufacturer Part": "",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "3K",
-          1,
-          "R0603",
-          "R3",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_0603_US",
-            "Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
           }
         ],
         [
@@ -325,11 +250,11 @@
           }
         ]
       ],
-      "updateTime": 1718762339,
+      "updateTime": 1718758544,
       "createTime": 1718350724,
       "histories": [],
       "created_at": "2024-06-14 17:38:44",
-      "updated_at": "2024-06-19 11:58:59"
+      "updated_at": "2024-06-19 10:55:44"
     },
     {
       "uuid": "9ccebb5ecd4742d15d5a55e65dca25ad",
@@ -366,5 +291,5 @@
   "title": "power_driver_parallelism",
   "foldername": "power_driver_parallelism",
   "schfilename": "power_driver_parallelism.json",
-  "schfilemtime": 1718762339089
+  "schfilemtime": 1718758544014
 }
