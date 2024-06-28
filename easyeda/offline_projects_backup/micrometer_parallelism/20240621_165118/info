@@ -1,0 +1,257 @@
+{
+  "uuid": "9b169f678745db4bd104493ab9a927fb",
+  "path": "Offline/micrometer_parallelism",
+  "name": "micrometer_parallelism",
+  "content": "",
+  "created_at": "2024-05-31 13:53:47",
+  "updated_at": "2024-06-21 16:51:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a0c5c77abe45a79082ae1d4249f6972c",
+      "title": "Controller",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f0236a8022f64f3da5d82a1650fe24d3": 16,
+        "24eeb2ceca08480b92b847b6a310acda": 16,
+        "e2fd37fcab1745a6a4526a14cc0d75d9": 2,
+        "c6652b96eb0d4528a60082e8b5dc8713": 1,
+        "22287dfc4b2548ea85d1b0564884ff36": 2,
+        "02d3646832c3448e80e1fcfe698e9653": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 3,
+        "64b6f98164fd4d919d4ec73a00cb2d45": 1,
+        "ce91631041f646fd9775777b794167dd": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          16,
+          "C0603",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "ESP32-S3-Pico-Waveshare-Symbol",
+          1,
+          "ESP32-S3-PICO",
+          "J1",
+          {
+            "Supplier Part": "ESP32-S3-Pico",
+            "Supplier": "LCSC",
+            "Manufacturer": "Waveshare",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "Gabriel Thien",
+            "spiceSymbolName": "ESP32-S3-Pico-Waveshare-Symbol",
+            "puuid": "42b0c8bb8d484f04a127105ab7798018",
+            "uuid": "c6652b96eb0d4528a60082e8b5dc8713"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x10",
+          1,
+          "HDR-M-2.54_1X10",
+          "J2",
+          {
+            "Supplier Part": "C57369",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x10",
+            "puuid": "0163104799714461abf84081b4477301",
+            "uuid": "ce91631041f646fd9775777b794167dd"
+          }
+        ],
+        [
+          "COM-16347",
+          16,
+          "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843785",
+            "Manufacturer": "XINGLIGHT(成兴光)",
+            "Manufacturer Part": "XL-5050RGBC-WS2812B",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL-5050RGBC-WS2812B",
+            "puuid": "b55714c828764ab8ba5599ca60f132ba",
+            "uuid": "f0236a8022f64f3da5d82a1650fe24d3"
+          }
+        ],
+        [
+          "150060GS75000",
+          1,
+          "LED0603-RD_GREEN",
+          "LED17",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5252984",
+            "Manufacturer": "Wurth(伍尔特)",
+            "Manufacturer Part": "150060GS75000",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "150060GS75000",
+            "puuid": "a79742a4decb4495a5ae45708846b7ba",
+            "uuid": "64b6f98164fd4d919d4ec73a00cb2d45"
+          }
+        ],
+        [
+          "S4B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S4B-PH-SM4-TB-LF-SN",
+          "MAG_LED_SWITCH,POW_SUP",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265102",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S4B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S4B-PH-SM4-TB(LF)(SN)",
+            "puuid": "52a4674d60164c8398c0e500e9bc1b5e",
+            "uuid": "22287dfc4b2548ea85d1b0564884ff36"
+          }
+        ],
+        [
+          "S6B-PH-SM4-TB(LF)(SN)",
+          2,
+          "CONN-SMD_S6B-PH-SM4-TB-LF-SN",
+          "MUX_UART1,MUX_UART2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C265405",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S6B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S6B-PH-SM4-TB(LF)(SN)",
+            "puuid": "578b5d9ab72b4a809baf3813e242966c",
+            "uuid": "e2fd37fcab1745a6a4526a14cc0d75d9"
+          }
+        ],
+        [
+          "BSS84AK,215",
+          1,
+          "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "BSS84AK,215",
+            "Supplier Part": "C127273",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BSS84AK,215",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "02d3646832c3448e80e1fcfe698e9653"
+          }
+        ],
+        [
+          "4.7",
+          1,
+          "R0603",
+          "R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R0603",
+          "R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R0603",
+          "R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ]
+      ],
+      "updateTime": 1718952434,
+      "createTime": 1717127627,
+      "histories": [],
+      "created_at": "2024-05-31 13:53:47",
+      "updated_at": "2024-06-21 16:47:14"
+    },
+    {
+      "uuid": "23c55e53c92277cd03de8ae2c02f9d2a",
+      "puuid": "9b169f678745db4bd104493ab9a927fb",
+      "title": "PCB_Controller",
+      "filename": "PCB_Controller.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b55714c828764ab8ba5599ca60f132ba": 16,
+        "f8151fdc728a41ebbc304e11d39e5437": 16,
+        "a79742a4decb4495a5ae45708846b7ba": 1,
+        "398691f1f785460098bbe5ee6590333c": 3,
+        "0163104799714461abf84081b4477301": 1,
+        "2a819e02584e46aea9f04b619de61270": 1,
+        "52a4674d60164c8398c0e500e9bc1b5e": 2,
+        "578b5d9ab72b4a809baf3813e242966c": 2,
+        "42b0c8bb8d484f04a127105ab7798018": 1
+      },
+      "BOM": [],
+      "updateTime": 1718952678,
+      "createTime": 1718327811,
+      "histories": [],
+      "created_at": "2024-06-14 11:16:51",
+      "updated_at": "2024-06-21 16:51:18"
+    }
+  ],
+  "sort": [
+    "a0c5c77abe45a79082ae1d4249f6972c",
+    "3f4601a495877c7209c2e03883008f80"
+  ],
+  "title": "micrometer_parallelism",
+  "foldername": "micrometer_parallelism",
+  "schfilename": "micrometer_parallelism.json",
+  "schfilemtime": 1718952434535
+}
