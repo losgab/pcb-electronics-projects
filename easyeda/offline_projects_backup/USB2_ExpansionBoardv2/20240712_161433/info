@@ -4,7 +4,7 @@
   "name": "USB2_ExpansionBoardv2",
   "content": "",
   "created_at": "2024-05-31 15:21:04",
-  "updated_at": "2024-07-02 14:34:19",
+  "updated_at": "2024-07-12 16:14:33",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "abc225036543fc3a41f629ce1157e8c4",
       "thumb": "/images/thumb-default.png",
       "components": {
         "95f05029d13f4f6da0077da9433e9baf": 1,
@@ -21,9 +21,12 @@
         "330da1b23c9b42f58f3f4bd0ed5dc65a": 1,
         "24eeb2ceca08480b92b847b6a310acda": 2,
         "dfc07e053e55470e9c273668fb7e442c": 1,
-        "2fa53d590f544429ab8fcbd581d715c1": 8,
-        "37f7562e0faf4af29ed48ecebb705db7": 8,
-        "bb009484ef804a24ac5d18c54b249586": 2
+        "2fa53d590f544429ab8fcbd581d715c1": 9,
+        "37f7562e0faf4af29ed48ecebb705db7": 9,
+        "bb009484ef804a24ac5d18c54b249586": 2,
+        "00648762120e485c99c2c69463d761f9": 1,
+        "843db580bf114406906192b04dcd6715": 1,
+        "708c5ac6840c47adb4d17923ecee927c": 1
       },
       "BOM": [
         [
@@ -50,9 +53,9 @@
         ],
         [
           "150060RS75000",
-          8,
+          9,
           "LED0603-RD_RED",
-          "LED0,LED1,LED2,LED3,LED4,LED5,LED6,LED7",
+          "LED0,LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8",
           {
             "Supplier": "LCSC",
             "Supplier Part": "C3030991",
@@ -83,6 +86,21 @@
           }
         ],
         [
+          "120",
+          9,
+          "R1206",
+          "R1,R3,R4,R5,R6,R7,R8,R9,R10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
           "4.7K",
           2,
           "R0603",
@@ -95,21 +113,6 @@
             "Manufacturer Part": "",
             "puuid": "398691f1f785460098bbe5ee6590333c",
             "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
-          "120",
-          8,
-          "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R10",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_1206_EU",
-            "Manufacturer Part": "",
-            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
-            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
           }
         ],
         [
@@ -147,6 +150,56 @@
           }
         ],
         [
+          "74HC151D",
+          1,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2674446",
+            "Manufacturer": "TOSHIBA(东芝)",
+            "Manufacturer Part": "74HC151D",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "74HC151D",
+            "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
+            "uuid": "00648762120e485c99c2c69463d761f9"
+          }
+        ],
+        [
+          "SN74HC138D",
+          1,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523704",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74HC138D",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SN74HC138D",
+            "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
+            "uuid": "843db580bf114406906192b04dcd6715"
+          }
+        ],
+        [
+          "SN74HC151DT",
+          1,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1879854",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "SN74HC151DT",
+            "spiceSymbolName": "SN74HC151DT",
+            "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
+            "uuid": "708c5ac6840c47adb4d17923ecee927c"
+          }
+        ],
+        [
           "CU01SAH0S00",
           8,
           "USB-A-TH_CU01SAH0S00",
@@ -181,11 +234,11 @@
           }
         ]
       ],
-      "updateTime": 1719893774,
+      "updateTime": 1720764873,
       "createTime": 1717132864,
       "histories": [],
       "created_at": "2024-05-31 15:21:04",
-      "updated_at": "2024-07-02 14:16:14"
+      "updated_at": "2024-07-12 16:14:33"
     },
     {
       "uuid": "cd87aa9bdcfee8c38f9c940ce1f21bdf",
@@ -208,16 +261,16 @@
         "9a1e5ead25584dc6bf56aef772d9498c": 1
       },
       "BOM": [],
-      "updateTime": 1719894859,
+      "updateTime": 1719898937,
       "createTime": 1717133791,
       "histories": [],
       "created_at": "2024-05-31 15:36:31",
-      "updated_at": "2024-07-02 14:34:19"
+      "updated_at": "2024-07-02 15:42:17"
     }
   ],
   "sort": [],
   "title": "USB2_ExpansionBoardv2",
   "foldername": "USB2_ExpansionBoardv2",
   "schfilename": "USB2_ExpansionBoardv2.json",
-  "schfilemtime": 1719893774474
+  "schfilemtime": 1720764873132
 }
