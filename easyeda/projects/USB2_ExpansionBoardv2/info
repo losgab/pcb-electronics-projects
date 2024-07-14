@@ -1,5 +1,5 @@
 {
-  "uuid": "18bbf1dffc33c774ca18716cd9ef02e3",
+  "uuid": "2ed97b0d8cfd2cf2d0f880f8f7227fcf",
   "path": "Offline/USB2_ExpansionBoardv2",
   "name": "USB2_ExpansionBoardv2",
   "content": "",
@@ -8,7 +8,7 @@
   "stick": "",
   "documents": [
     {
-      "uuid": "9a8316059a313b262498fc70cdee0d29",
+      "uuid": "a351689c07bc6b0827663592384cb558",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
@@ -224,7 +224,7 @@
       "updated_at": "2024-07-12 17:39:41"
     },
     {
-      "uuid": "cd87aa9bdcfee8c38f9c940ce1f21bdf",
+      "uuid": "9ea810c53e802e437786c54b277d45d4",
       "puuid": "18bbf1dffc33c774ca18716cd9ef02e3",
       "title": "PCB_USB2_ExpansionBoardv2",
       "filename": "PCB_USB2_ExpansionBoardv2.json",

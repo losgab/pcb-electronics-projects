@@ -41,7 +41,10 @@
   "8a03968d0a86c7c8e8d361c2ef08119d": "USB2_ExpansionBoard",
   "0fa3d2f679f0ec67887839596ac92e78": "USB2_ExpansionBoard\\USB2_ExpansionBoard.json?Sheet_1",
   "3ee004ccc8842ca44c60f46ce63ca76d": "USB2_ExpansionBoard\\PCB_USB2_ExpansionBoard.json",
-  "18bbf1dffc33c774ca18716cd9ef02e3": "USB2_ExpansionBoardv2",
-  "9a8316059a313b262498fc70cdee0d29": "USB2_ExpansionBoardv2\\USB2_ExpansionBoardv2.json?Sheet_1",
-  "cd87aa9bdcfee8c38f9c940ce1f21bdf": "USB2_ExpansionBoardv2\\PCB_USB2_ExpansionBoardv2.json"
+  "18bbf1dffc33c774ca18716cd9ef02e3": "USB2_ExpansionBoardv1.1",
+  "9a8316059a313b262498fc70cdee0d29": "USB2_ExpansionBoardv1.1\\USB2_ExpansionBoardv2.json?Sheet_1",
+  "cd87aa9bdcfee8c38f9c940ce1f21bdf": "USB2_ExpansionBoardv1.1\\PCB_USB2_ExpansionBoardv2.json",
+  "2ed97b0d8cfd2cf2d0f880f8f7227fcf": "USB2_ExpansionBoardv2",
+  "a351689c07bc6b0827663592384cb558": "USB2_ExpansionBoardv2\\USB2_ExpansionBoardv2.json?Sheet_1",
+  "9ea810c53e802e437786c54b277d45d4": "USB2_ExpansionBoardv2\\PCB_USB2_ExpansionBoardv2.json"
 }
