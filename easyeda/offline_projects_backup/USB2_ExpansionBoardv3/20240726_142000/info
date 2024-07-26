@@ -4,7 +4,7 @@
   "name": "USB2_ExpansionBoardv3",
   "content": "",
   "created_at": "2024-05-31 15:21:04",
-  "updated_at": "2024-07-26 14:24:52",
+  "updated_at": "2024-07-26 14:20:00",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1721967774,
+      "updateTime": 1721967596,
       "createTime": 1720873303,
       "histories": [],
       "created_at": "2024-07-13 22:21:43",
-      "updated_at": "2024-07-26 14:22:54",
+      "updated_at": "2024-07-26 14:19:56",
       "BOM": [
         [
           "Value",
@@ -94,21 +94,6 @@
           }
         ],
         [
-          "4K7",
-          4,
-          "R0603",
-          "R1,R11,R12,R13",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_0603_EU",
-            "Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "bb009484ef804a24ac5d18c54b249586"
-          }
-        ],
-        [
           "4.7K",
           1,
           "R0603",
@@ -128,6 +113,21 @@
           8,
           "R1206",
           "R3,R4,R5,R6,R7,R8,R9,R10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R11,R12,R13,R14",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -229,10 +229,10 @@
         "ffadad71120841e4be235de9fcb747fe": 8,
         "e2fd37fcab1745a6a4526a14cc0d75d9": 1,
         "dfc07e053e55470e9c273668fb7e442c": 1,
-        "2fa53d590f544429ab8fcbd581d715c1": 8,
+        "2fa53d590f544429ab8fcbd581d715c1": 12,
         "37f7562e0faf4af29ed48ecebb705db7": 8,
         "24eeb2ceca08480b92b847b6a310acda": 2,
-        "bb009484ef804a24ac5d18c54b249586": 5,
+        "bb009484ef804a24ac5d18c54b249586": 1,
         "00648762120e485c99c2c69463d761f9": 1,
         "4d90ab1fe3bb43618124b67e71c78639": 4,
         "c9bcd71204854866a129a5264511c0b4": 1
@@ -246,19 +246,19 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1721967892,
+      "updateTime": 1721967600,
       "createTime": 1720020521,
       "histories": [],
       "created_at": "2024-07-04 01:28:41",
-      "updated_at": "2024-07-26 14:24:52",
+      "updated_at": "2024-07-26 14:20:00",
       "components": {
-        "398691f1f785460098bbe5ee6590333c": 5,
         "5cafa9ae5a9e4b2ab529c9f08b47eb94": 1,
         "103d6ca4b4484f518392ec2ee5ce7d21": 4,
         "f8151fdc728a41ebbc304e11d39e5437": 2,
         "a54eec112d4e47d8b8028fdda8c2c5b8": 1,
-        "267a6f7006e64285b145cfc7f6180b7f": 8,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 8,
+        "267a6f7006e64285b145cfc7f6180b7f": 9,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 13,
+        "398691f1f785460098bbe5ee6590333c": 1,
         "23b2db629115442e9f5e0bc6ed46a6c2": 1,
         "578b5d9ab72b4a809baf3813e242966c": 1,
         "60035dd9cef14a8eb68a4af4e5297a42": 8,
@@ -270,5 +270,5 @@
   "title": "USB2_ExpansionBoardv3",
   "foldername": "USB2_ExpansionBoardv3",
   "schfilename": "USB2_ExpansionBoardv3.json",
-  "schfilemtime": 1721967774480
+  "schfilemtime": 1721967596302
 }
