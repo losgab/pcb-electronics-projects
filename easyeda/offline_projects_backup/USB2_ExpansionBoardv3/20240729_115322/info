@@ -4,7 +4,7 @@
   "name": "USB2_ExpansionBoardv3",
   "content": "",
   "created_at": "2024-05-31 15:21:04",
-  "updated_at": "2024-07-29 12:37:23",
+  "updated_at": "2024-07-29 11:53:22",
   "stick": "",
   "documents": [
     {
@@ -12,7 +12,7 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "784ea66bb2654c0ad50ea06af14bf695",
       "thumb": "/images/thumb-default.png",
       "updateTime": 1722218002,
       "createTime": 1720873303,
@@ -246,11 +246,11 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1722220643,
+      "updateTime": 1722217996,
       "createTime": 1720020521,
       "histories": [],
       "created_at": "2024-07-04 01:28:41",
-      "updated_at": "2024-07-29 12:37:23",
+      "updated_at": "2024-07-29 11:53:16",
       "components": {
         "398691f1f785460098bbe5ee6590333c": 6,
         "103d6ca4b4484f518392ec2ee5ce7d21": 5,

@@ -4,7 +4,7 @@
   "name": "USB2_ExpansionBoardv3",
   "content": "",
   "created_at": "2024-05-31 15:21:04",
-  "updated_at": "2024-07-29 12:37:23",
+  "updated_at": "2024-07-29 11:45:35",
   "stick": "",
   "documents": [
     {
@@ -12,13 +12,13 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "af004dab028f4807749f23b6c6cde0fb",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1722218002,
+      "updateTime": 1722217535,
       "createTime": 1720873303,
       "histories": [],
       "created_at": "2024-07-13 22:21:43",
-      "updated_at": "2024-07-29 11:53:22",
+      "updated_at": "2024-07-29 11:45:35",
       "BOM": [
         [
           "Value",
@@ -246,11 +246,11 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1722220643,
+      "updateTime": 1722217529,
       "createTime": 1720020521,
       "histories": [],
       "created_at": "2024-07-04 01:28:41",
-      "updated_at": "2024-07-29 12:37:23",
+      "updated_at": "2024-07-29 11:45:29",
       "components": {
         "398691f1f785460098bbe5ee6590333c": 6,
         "103d6ca4b4484f518392ec2ee5ce7d21": 5,
@@ -270,5 +270,5 @@
   "title": "USB2_ExpansionBoardv3",
   "foldername": "USB2_ExpansionBoardv3",
   "schfilename": "USB2_ExpansionBoardv3.json",
-  "schfilemtime": 1722218002963
+  "schfilemtime": 1722217535141
 }
