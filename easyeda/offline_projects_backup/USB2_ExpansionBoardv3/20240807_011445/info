@@ -4,7 +4,7 @@
   "name": "USB2_ExpansionBoardv3",
   "content": "",
   "created_at": "2024-05-31 15:21:04",
-  "updated_at": "2024-08-07 02:49:58",
+  "updated_at": "2024-08-07 01:14:45",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1722959040,
+      "updateTime": 1722218002,
       "createTime": 1720873303,
       "histories": [],
       "created_at": "2024-07-13 22:21:43",
-      "updated_at": "2024-08-07 01:44:00",
+      "updated_at": "2024-07-29 11:53:22",
       "BOM": [
         [
           "Value",
@@ -33,10 +33,13 @@
           "C0603",
           "C1,C2",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
           }
         ],
         [
@@ -45,10 +48,15 @@
           "CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN",
           "CN1",
           {
-            "Manufacturer Part": "S2B-PH-SM4-TB(LF)(SN)",
-            "Manufacturer": "JST",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C295747"
+            "Supplier Part": "C295747",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S2B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S2B-PH-SM4-TB(LF)(SN)",
+            "puuid": "a54eec112d4e47d8b8028fdda8c2c5b8",
+            "uuid": "c9bcd71204854866a129a5264511c0b4"
           }
         ],
         [
@@ -57,10 +65,15 @@
           "LED0603-RD_RED",
           "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8",
           {
-            "Manufacturer Part": "150060RS75000",
-            "Manufacturer": "Wurth(伍尔特)",
             "Supplier": "LCSC",
-            "Supplier Part": "C3030991"
+            "Supplier Part": "C3030991",
+            "Manufacturer": "Wurth(伍尔特)",
+            "Manufacturer Part": "150060RS75000",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "150060RS75000",
+            "puuid": "267a6f7006e64285b145cfc7f6180b7f",
+            "uuid": "37f7562e0faf4af29ed48ecebb705db7"
           }
         ],
         [
@@ -69,10 +82,15 @@
           "CONN-SMD_S6B-PH-SM4-TB-LF-SN",
           "P1",
           {
-            "Manufacturer Part": "S6B-PH-SM4-TB(LF)(SN)",
-            "Manufacturer": "JST",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C265405"
+            "Supplier Part": "C265405",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "S6B-PH-SM4-TB(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "S6B-PH-SM4-TB(LF)(SN)",
+            "puuid": "578b5d9ab72b4a809baf3813e242966c",
+            "uuid": "e2fd37fcab1745a6a4526a14cc0d75d9"
           }
         ],
         [
@@ -81,10 +99,13 @@
           "R0603",
           "R1,R11,R12,R13,R14",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
         ],
         [
@@ -93,10 +114,13 @@
           "R0603",
           "R2",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
           }
         ],
         [
@@ -105,10 +129,13 @@
           "R1206",
           "R3,R4,R5,R6,R7,R8,R9,R10",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Supplier Part": "",
             "Supplier": "",
-            "Supplier Part": ""
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
           }
         ],
         [
@@ -117,10 +144,15 @@
           "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL",
           "U1",
           {
-            "Manufacturer Part": "74VHC138FT",
-            "Manufacturer": "TOSHIBA(东芝)",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C2674733"
+            "Supplier Part": "C2674733",
+            "Manufacturer": "TOSHIBA(东芝)",
+            "Manufacturer Part": "74VHC138FT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "74VHC138FT",
+            "puuid": "23b2db629115442e9f5e0bc6ed46a6c2",
+            "uuid": "dfc07e053e55470e9c273668fb7e442c"
           }
         ],
         [
@@ -129,10 +161,15 @@
           "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
           "U2",
           {
-            "Manufacturer Part": "74HC151D",
-            "Manufacturer": "TOSHIBA(东芝)",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C2674446"
+            "Supplier Part": "C2674446",
+            "Manufacturer": "TOSHIBA(东芝)",
+            "Manufacturer Part": "74HC151D",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "74HC151D",
+            "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
+            "uuid": "00648762120e485c99c2c69463d761f9"
           }
         ],
         [
@@ -141,10 +178,15 @@
           "SC-88-6_L2.0-W1.3-P0.65-LS2.1-BL",
           "U3,U4,U5,U6,U7",
           {
-            "Manufacturer Part": "74LVC1T45GW,125",
-            "Manufacturer": "Nexperia(安世)",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C478004"
+            "Supplier Part": "C478004",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "74LVC1T45GW,125",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "74LVC1T45GW,125",
+            "puuid": "103d6ca4b4484f518392ec2ee5ce7d21",
+            "uuid": "4d90ab1fe3bb43618124b67e71c78639"
           }
         ],
         [
@@ -153,10 +195,15 @@
           "USB-A-TH_CU01SAH0S00",
           "USB1,USB2,USB3,USB4,USB5,USB6,USB7,USB8",
           {
-            "Manufacturer Part": "CU01SAH0S00",
-            "Manufacturer": "Cvilux(瀚荃)",
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C918634"
+            "Supplier Part": "C918634",
+            "Manufacturer": "Cvilux(瀚荃)",
+            "Manufacturer Part": "CU01SAH0S00",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CU01SAH0S00",
+            "puuid": "60035dd9cef14a8eb68a4af4e5297a42",
+            "uuid": "ffadad71120841e4be235de9fcb747fe"
           }
         ],
         [
@@ -165,10 +212,15 @@
           "MOLEX MINI-FIT JR_2P_2R-90",
           "X1",
           {
-            "Manufacturer Part": "0026013114",
             "Manufacturer": "Molex",
+            "Manufacturer Part": "0026013114",
             "Supplier": "Mouser",
-            "Supplier Part": "538-26-01-3114"
+            "Supplier Part": "538-26-01-3114",
+            "link": "https://www.mouser.ch/datasheet/2/276/0026013114_PCB_HEADERS-693979.pdf",
+            "Contributor": "",
+            "spiceSymbolName": "MOLEX MINI-FIT JR_2P_2R",
+            "puuid": "9a1e5ead25584dc6bf56aef772d9498c",
+            "uuid": "95f05029d13f4f6da0077da9433e9baf"
           }
         ]
       ],
@@ -194,11 +246,11 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1722962998,
+      "updateTime": 1722957285,
       "createTime": 1720020521,
       "histories": [],
       "created_at": "2024-07-04 01:28:41",
-      "updated_at": "2024-08-07 02:49:58",
+      "updated_at": "2024-08-07 01:14:45",
       "components": {
         "398691f1f785460098bbe5ee6590333c": 6,
         "103d6ca4b4484f518392ec2ee5ce7d21": 5,
@@ -218,5 +270,5 @@
   "title": "USB2_ExpansionBoardv3",
   "foldername": "USB2_ExpansionBoardv3",
   "schfilename": "USB2_ExpansionBoardv3.json",
-  "schfilemtime": 1722959040161
+  "schfilemtime": 1722218002963
 }
